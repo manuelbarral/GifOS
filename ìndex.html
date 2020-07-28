@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="./scss/styles.css" />
+		<link
+			rel="shortcut icon"
+			type="image/x-icon"
+			href="./assets/img/gifOF_logo_icon.ico"
+		/>
+		<title>GifOS</title>
+	</head>
+	<body>
+		<header class="header">
+			<p class="wellcome">
+				¡Bienvenidos/as a Guifos.com! ------Donde los gifs están//////
+				Número de visitas: <span id="number">12.765.803</span>
+			</p>
+		</header>
+		<div class="section">
+			<div id="logoAndMenu" class="logoAndMenu">
+				<img
+					id="logo"
+					class="logo"
+					src="./assets/img/gifOS_logo.png"
+					alt="logo"
+				/>
+				<nav class="menu">
+					<button id="buttonBoxOne" class="buttonBoxOne">
+						Crear Guifos
+					</button>
+					<div class="buttonBoxTwoAndArrow">
+						<button class="buttonBoxTwo">
+							Elegir tema
+						</button>
+						<div id="arrow" class="arrow">
+							<img id="arrowDown" src="#" alt="Flecha abajo" />
+						</div>
+					</div>
+					<ul id="optionsThemes" class="optionsThemes">
+						<li id="optionSailorDay">
+							<p id="sailorDay" class="text-themes">
+								<span>S</span>ailor Day
+							</p>
+						</li>
+						<li id="optionSailorNight">
+							<p id="sailorNight" class="text-themes">
+								<span>S</span>ailor Night
+							</p>
+						</li>
+					</ul>
+					<button id="buttonNonBox" class="buttonNonBox">
+						<span>M</span>is Guifos
+					</button>
+				</nav>
+			</div>
+			<div id="container-form" class="container-form">
+				<p class="title-search">Buscar</p>
+				<form id="myForm">
+					<input
+						id="search"
+						name="InputSearchForm"
+						type="text"
+						class="input-search"
+						placeholder="Busca gifs, hashtags, temas, busca lo que quieras..."
+						required
+					/>
+					<button
+						id="buttonSearch"
+						name="buttonForm"
+						class="button-searchOne button-searchTwo"
+						type="button"
+						disabled
+					>
+						<span id="glassAndSearch" class="glassAndSearch">
+							<img
+								id="glass"
+								src="#"
+								style="padding-right: 10px;"
+								alt="lupa"
+							/>Buscar</span
+						>
+					</button>
+				</form>
+			</div>
+			<div class="container-imgsSugestions">
+				<div class="container-sugestions">
+					<p class="sugestions-text">Hoy te sugerimos</p>
+				</div>
+				<div class="sugestions-imgs">
+					<div class="container-img">
+						<div class="container-titleCross">
+							<p id="tagOne" class="title"></p>
+							<img src="./assets/img/button3.svg" alt="close" />
+						</div>
+						<img id="gifOne" src="#" alt="1" />
+						<button id="buttonSeeOne" class="buttonSee">
+							Ver más..
+						</button>
+					</div>
+					<div class="container-img">
+						<div class="container-titleCross">
+							<p id="tagTwo" class="title"></p>
+							<img src="./assets/img/button3.svg" alt="close" />
+						</div>
+						<img id="gifTwo" src="#" alt="2" />
+						<button id="buttonSeeTwo" class="buttonSee">
+							Ver más..
+						</button>
+					</div>
+					<div class="container-img">
+						<div class="container-titleCross">
+							<p id="tagThree" class="title"></p>
+							<img src="./assets/img/button3.svg" alt="close" />
+						</div>
+						<img id="gifThree" src="#" alt="3" />
+						<button id="buttonSeeThree" class="buttonSee">
+							Ver más..
+						</button>
+					</div>
+					<div class="container-img">
+						<div class="container-titleCross">
+							<p id="tagFour" class="title"></p>
+							<img src="./assets/img/button3.svg" alt="close" />
+						</div>
+						<img id="gifFour" src="#" alt="4" />
+						<button id="buttonSeeFour" class="buttonSee">
+							Ver más..
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="container-images-trends">
+				<div class="trends">
+					<p class="trends-text">Tendencias</p>
+				</div>
+			</div>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>

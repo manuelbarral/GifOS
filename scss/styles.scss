@@ -1,0 +1,18 @@
+@import './utilities/fonts.scss';
+
+//themes
+@import '../scss/themes/theme-one/index/theme-one.scss';
+@import '../scss/themes/theme-one/createGif/theme-one.scss';
+@import '../scss/themes/theme-two/index/theme-two.scss';
+@import '../scss/themes/theme-two/createGif/theme-two.scss';
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'ChakraPetch-Regular';
+}
+
+body {
+	height: auto;
+}

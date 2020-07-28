@@ -1,0 +1,2462 @@
+@font-face {
+  font-family: 'ChakraPetch-Regular';
+  src: url(../../assets/fonts/ChakraPetch-Regular.ttf); }
+@font-face {
+  font-family: 'ChakraPetch-Bold';
+  src: url(../../assets/fonts/ChakraPetch-Bold.ttf); }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  .themeOne .header {
+    width: 100%;
+    box-shadow: 0 1px 0 0 #110038;
+    background-image: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%); }
+    .themeOne .header .wellcome {
+      padding: 5px 10px;
+      line-height: 20px;
+      color: #ffffff;
+      padding-top: 3px;
+      padding-bottom: 4px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 1440px) {
+      .themeOne .header .wellcome {
+        font-size: 12px; } }
+  @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 1440px) {
+    .themeOne .header {
+      height: 23px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  .themeOne .section {
+    width: 100%;
+    height: 100%;
+    background-color: #fff4fd; }
+    .themeOne .section .logoAndMenu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 10px 19px 10px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+      .themeOne .section .logoAndMenu {
+        padding: 25px 70px 19px 30px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1100px) {
+      .themeOne .section .logoAndMenu {
+        padding: 25px 100px 19px 60px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1440px) {
+      .themeOne .section .logoAndMenu {
+        padding: 25px 140px 19px 100px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+      .themeOne .section .logoAndMenu .logo {
+        width: 55px; }
+      .themeOne .section .logoAndMenu .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative; }
+        .themeOne .section .logoAndMenu .menu .buttonBoxOne {
+          width: 144px;
+          height: 36px;
+          font-size: 16px;
+          margin-left: 15px;
+          margin-right: 16px;
+          padding: 4px 0;
+          border: 1px solid #110038;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          color: #110038;
+          background-color: #f7c9f3; }
+          .themeOne .section .logoAndMenu .menu .buttonBoxOne:focus {
+            outline: none; }
+          .themeOne .section .logoAndMenu .menu .buttonBoxOne:hover {
+            border: 1px dashed #110038;
+            background-color: #e6bbe2;
+            cursor: pointer; }
+          .themeOne .section .logoAndMenu .menu .buttonBoxOne:active {
+            border: 1px dashed #110038;
+            background-color: #e6bbe2; }
+        .themeOne .section .logoAndMenu .menu .buttonBoxTwoAndArrow {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+          .themeOne .section .logoAndMenu .menu .buttonBoxTwoAndArrow:focus {
+            outline: none; }
+          .themeOne .section .logoAndMenu .menu .buttonBoxTwoAndArrow:hover > .buttonBoxTwo {
+            border: 1px dashed #110038;
+            background-color: #e6bbe2; }
+          .themeOne .section .logoAndMenu .menu .buttonBoxTwoAndArrow:hover > .arrow > img {
+            border: 1px dashed #110038;
+            background-color: #e6bbe2; }
+          .themeOne .section .logoAndMenu .menu .buttonBoxTwoAndArrow .buttonBoxTwo {
+            width: 108px;
+            height: 36px;
+            margin-right: 0;
+            font-size: 16px;
+            padding: 4px 0;
+            border: 1px solid #110038;
+            box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+            color: #110038;
+            background-color: #f7c9f3; }
+            .themeOne .section .logoAndMenu .menu .buttonBoxTwoAndArrow .buttonBoxTwo:focus {
+              outline: none; }
+          .themeOne .section .logoAndMenu .menu .buttonBoxTwoAndArrow .arrow {
+            width: 36px;
+            height: 34px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f7c9f3;
+            border: 1px solid #110038;
+            box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff; }
+            .themeOne .section .logoAndMenu .menu .buttonBoxTwoAndArrow .arrow:hover {
+              cursor: pointer; }
+            .themeOne .section .logoAndMenu .menu .buttonBoxTwoAndArrow .arrow img {
+              width: 10px;
+              height: 6px;
+              margin: 0 5px;
+              padding: 12px 9px; }
+        .themeOne .section .logoAndMenu .menu .optionsThemes {
+          width: 137px;
+          top: 36px;
+          display: none;
+          list-style: none;
+          padding-top: 10px;
+          padding-left: 10px;
+          padding-bottom: 10px;
+          position: absolute;
+          background-color: #e6e6e6;
+          box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 1440px) {
+          .themeOne .section .logoAndMenu .menu .optionsThemes {
+            left: 175px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+          .themeOne .section .logoAndMenu .menu .optionsThemes li {
+            width: 125px;
+            background-color: #f0f0f0;
+            border: 1px solid #808080;
+            box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+            cursor: pointer; }
+            .themeOne .section .logoAndMenu .menu .optionsThemes li:hover {
+              background-color: #fff4fd;
+              border: 1px solid #cca6c9;
+              box-shadow: inset -1px -1px 0 0 #e6dce4, inset 1px 1px 0 0 #ffffff; }
+            .themeOne .section .logoAndMenu .menu .optionsThemes li:hover span {
+              text-decoration: underline; }
+            .themeOne .section .logoAndMenu .menu .optionsThemes li:active {
+              background-color: #fff4fd;
+              border: 1px solid #cca6c9;
+              box-shadow: inset -1px -1px 0 0 #e6dce4, inset 1px 1px 0 0 #ffffff; }
+            .themeOne .section .logoAndMenu .menu .optionsThemes li:nth-of-type(1) {
+              margin-bottom: 10px; }
+            .themeOne .section .logoAndMenu .menu .optionsThemes li .text-themes {
+              width: 100%;
+              padding-top: 7px;
+              padding-bottom: 7px;
+              margin-left: 10px;
+              font-family: 'ChakraPetch-Regular';
+              font-size: 16px;
+              color: #110038;
+              letter-spacing: 0;
+              line-height: 22px;
+              text-decoration: none; }
+              .themeOne .section .logoAndMenu .menu .optionsThemes li .text-themes:hover {
+                color: #110038; }
+        .themeOne .section .logoAndMenu .menu .buttonNonBox {
+          font-size: 16px;
+          line-height: 18px;
+          color: #110038;
+          padding: 7px;
+          margin-left: 16px;
+          border: 1px dashed transparent;
+          background-color: transparent;
+          outline: none; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 1440px) {
+          .themeOne .section .logoAndMenu .menu .buttonNonBox {
+            font-size: 16px;
+            margin-left: 16.5px;
+            padding: 8px 5px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+          .themeOne .section .logoAndMenu .menu .buttonNonBox:hover {
+            border: 1px dashed #110038;
+            outline: none;
+            cursor: pointer; }
+          .themeOne .section .logoAndMenu .menu .buttonNonBox:hover > span {
+            text-decoration: underline; }
+          .themeOne .section .logoAndMenu .menu .buttonNonBox:active {
+            color: #110038;
+            border: 1px dashed transparent;
+            outline: none; }
+          .themeOne .section .logoAndMenu .menu .buttonNonBox span {
+            text-decoration: transparent; }
+    .themeOne .section .container-form {
+      width: auto;
+      height: auto;
+      padding-top: 3px;
+      background-color: #e6e6e6;
+      box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+      .themeOne .section .container-form {
+        margin: 0 70px 0 30px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1100px) {
+      .themeOne .section .container-form {
+        margin: 0 100px 0 60px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1440px) {
+      .themeOne .section .container-form {
+        margin: 0 140px 0 100px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+      .themeOne .section .container-form .title-search {
+        width: auto;
+        background-image: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%);
+        font-family: 'ChakraPetch-Bold';
+        font-size: 14px;
+        color: #ffffff;
+        letter-spacing: 0;
+        padding: 3px 0 3px 6px;
+        margin-left: 3px;
+        margin-right: 3px; }
+      .themeOne .section .container-form form {
+        width: auto;
+        height: 48px;
+        padding: 12px 15px; }
+        .themeOne .section .container-form form .input-search {
+          height: 48px;
+          font-size: 16px;
+          padding-left: 5px;
+          background-color: #ffffff;
+          border: 1px solid #979797;
+          box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+          color: #b4b4b4; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+          .themeOne .section .container-form form .input-search {
+            width: 81%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1000px) {
+          .themeOne .section .container-form form .input-search {
+            width: 83%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1001px) and (max-width: 1200px) {
+          .themeOne .section .container-form form .input-search {
+            width: 85%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1201px) and (max-width: 1300px) {
+          .themeOne .section .container-form form .input-search {
+            width: 87%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1301px) and (max-width: 1400px) {
+          .themeOne .section .container-form form .input-search {
+            width: 89%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1401px) and (max-width: 1440px) {
+          .themeOne .section .container-form form .input-search {
+            width: 90%; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+        .themeOne .section .container-form form .button-searchOne {
+          width: 102px;
+          height: 36px;
+          margin-top: 10px;
+          font-size: 16px;
+          background-color: #e6e6e6;
+          border: 1px solid #808080;
+          box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+          color: #b4b4b4;
+          padding: 4px 0; }
+          .themeOne .section .container-form form .button-searchOne:hover {
+            cursor: pointer; }
+          .themeOne .section .container-form form .button-searchOne .glassAndSearch {
+            padding: 2px 7px; }
+            .themeOne .section .container-form form .button-searchOne .glassAndSearch:active {
+              background-color: #e6bbe2;
+              border: 1px dashed #110038;
+              box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff; }
+      .themeOne .section .container-form .hiddenContainerForm {
+        width: auto;
+        height: 0;
+        background-color: #e6e6e6;
+        box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+        padding-top: 0; }
+        .themeOne .section .container-form .hiddenContainerForm .option {
+          height: 34px;
+          background-color: #f0f0f0;
+          border: 1px solid #808080;
+          box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+          margin-left: 16px;
+          margin-bottom: 11px;
+          opacity: 0;
+          font-family: 'ChakraPetch-Regular';
+          font-size: 16px;
+          color: #110038;
+          letter-spacing: 0;
+          line-height: 22px;
+          padding: 6px 15px;
+          text-align: start; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+          .themeOne .section .container-form .hiddenContainerForm .option {
+            width: 78%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1000px) {
+          .themeOne .section .container-form .hiddenContainerForm .option {
+            width: 80%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1001px) and (max-width: 1200px) {
+          .themeOne .section .container-form .hiddenContainerForm .option {
+            width: 83%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1201px) and (max-width: 1300px) {
+          .themeOne .section .container-form .hiddenContainerForm .option {
+            width: 85%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1301px) and (max-width: 1400px) {
+          .themeOne .section .container-form .hiddenContainerForm .option {
+            width: 87%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1401px) and (max-width: 1440px) {
+          .themeOne .section .container-form .hiddenContainerForm .option {
+            width: 88%; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+          .themeOne .section .container-form .hiddenContainerForm .option:hover {
+            background-color: #dbdbdb; }
+      .themeOne .section .container-form .containerHistoryButtons {
+        height: 50px;
+        overflow: hidden;
+        background-color: #fff4fd; }
+      .themeOne .section .container-form .containerHistory {
+        height: 50px;
+        overflow: hidden;
+        background-color: #fff4fd; }
+    .themeOne .section .container-imgsSugestions {
+      width: 100%;
+      height: auto; }
+      .themeOne .section .container-imgsSugestions .container-sugestions {
+        width: auto;
+        background-color: #fffafe;
+        border: 1px solid #e6bbe2;
+        box-shadow: inset -2px -2px 0 0 #e6dce4, inset 2px 2px 0 0 #80687d; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+        .themeOne .section .container-imgsSugestions .container-sugestions {
+          margin: 64px 70px 0 30px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1100px) {
+        .themeOne .section .container-imgsSugestions .container-sugestions {
+          margin: 64px 100px 0 60px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1440px) {
+        .themeOne .section .container-imgsSugestions .container-sugestions {
+          margin: 64px 140px 0 100px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+        .themeOne .section .container-imgsSugestions .container-sugestions .sugestions-text {
+          font-size: 14px;
+          color: #110038;
+          letter-spacing: 0;
+          margin-top: 7px;
+          margin-bottom: 7px;
+          margin-left: 7px; }
+      .themeOne .section .container-imgsSugestions .sugestions-imgs {
+        width: auto;
+        height: 100%;
+        margin-top: 19px;
+        display: grid;
+        grid-template-rows: auto;
+        gap: 24px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+        .themeOne .section .container-imgsSugestions .sugestions-imgs {
+          margin-left: 30px;
+          margin-right: 70px;
+          grid-template-columns: 48% 48%; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1000px) {
+        .themeOne .section .container-imgsSugestions .sugestions-imgs {
+          margin-left: 60px;
+          margin-right: 100px;
+          grid-template-columns: 31.1% 31.1% 31.1%; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1001px) and (max-width: 1100px) {
+        .themeOne .section .container-imgsSugestions .sugestions-imgs {
+          margin-left: 60px;
+          margin-right: 100px;
+          grid-template-columns: 31.4% 31.4% 31.4%; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1300px) {
+        .themeOne .section .container-imgsSugestions .sugestions-imgs {
+          margin-left: 100px;
+          margin-right: 140px;
+          grid-template-columns: 23% 23% 23% 23%; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1301px) and (max-width: 1440px) {
+        .themeOne .section .container-imgsSugestions .sugestions-imgs {
+          margin-left: 100px;
+          margin-right: 140px;
+          grid-template-columns: 23.4% 23.4% 23.4% 23.4%; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+        .themeOne .section .container-imgsSugestions .sugestions-imgs .container-img {
+          background-color: #e6e6e6;
+          box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+          padding: 1px 3px;
+          position: relative; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1300px) {
+          .themeOne .section .container-imgsSugestions .sugestions-imgs .container-img {
+            width: 240px;
+            height: 240px; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1301px) and (max-width: 1440px) {
+          .themeOne .section .container-imgsSugestions .sugestions-imgs .container-img {
+            width: 280px;
+            height: 313px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+          .themeOne .section .container-imgsSugestions .sugestions-imgs .container-img .container-titleCross {
+            width: 100%;
+            height: auto;
+            background-image: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%);
+            margin-bottom: 2px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center; }
+            .themeOne .section .container-imgsSugestions .sugestions-imgs .container-img .container-titleCross .title {
+              font-family: 'ChakraPetch-Bold';
+              font-size: 14px;
+              color: #ffffff;
+              letter-spacing: 0;
+              margin-left: 3px; }
+            .themeOne .section .container-imgsSugestions .sugestions-imgs .container-img .container-titleCross img {
+              width: 15px;
+              height: 15px;
+              margin-right: 5px; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1300px) {
+          .themeOne .section .container-imgsSugestions .sugestions-imgs .container-img img {
+            width: 100%;
+            height: 215px; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1301px) and (max-width: 1440px) {
+          .themeOne .section .container-imgsSugestions .sugestions-imgs .container-img img {
+            width: 100%;
+            height: 290px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+          .themeOne .section .container-imgsSugestions .sugestions-imgs .container-img .buttonSee {
+            position: absolute;
+            left: 7px;
+            bottom: 15px;
+            padding: 8px 10px;
+            font-size: 14px;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 18px;
+            color: #ffffff;
+            background-color: #4180f6;
+            border: 1px solid #4c2f99;
+            box-shadow: inset -2px -2px 0 0 #284f99, inset 2px 2px 0 0 #ffffff; }
+            .themeOne .section .container-imgsSugestions .sugestions-imgs .container-img .buttonSee:hover {
+              background-color: #3a72db;
+              cursor: pointer; }
+    .themeOne .section .container-images-trends {
+      width: 100%;
+      height: auto; }
+      .themeOne .section .container-images-trends .trends {
+        width: auto;
+        height: 32px;
+        background-color: #fffafe;
+        border: 1px solid #e6bbe2;
+        box-shadow: inset -2px -2px 0 0 #e6dce4, inset 2px 2px 0 0 #80687d; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+        .themeOne .section .container-images-trends .trends {
+          margin: 64px 70px 0 30px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1100px) {
+        .themeOne .section .container-images-trends .trends {
+          margin: 64px 100px 0 60px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1440px) {
+        .themeOne .section .container-images-trends .trends {
+          margin: 64px 140px 0 100px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+        .themeOne .section .container-images-trends .trends .trends-text {
+          font-size: 14px;
+          color: #110038;
+          letter-spacing: 0;
+          margin-top: 7px;
+          margin-bottom: 7px;
+          margin-left: 7px; }
+      .themeOne .section .container-images-trends .images {
+        width: auto;
+        height: 100%;
+        margin-top: 19px;
+        padding-bottom: 50px; }
+        .themeOne .section .container-images-trends .images .allImages {
+          margin-left: 100px;
+          margin-right: 140px;
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          grid-gap: 14px;
+          grid-auto-rows: 298px; }
+          .themeOne .section .container-images-trends .images .allImages .containerImg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: relative;
+            cursor: pointer; }
+            .themeOne .section .container-images-trends .images .allImages .containerImg:nth-of-type(5) {
+              grid-column-start: span 2; }
+            .themeOne .section .container-images-trends .images .allImages .containerImg:nth-of-type(10) {
+              grid-column-start: span 2; }
+            .themeOne .section .container-images-trends .images .allImages .containerImg:nth-of-type(15) {
+              grid-column-start: span 2; }
+            .themeOne .section .container-images-trends .images .allImages .containerImg:nth-of-type(20) {
+              grid-column-start: span 2; }
+            .themeOne .section .container-images-trends .images .allImages .containerImg:hover > p {
+              display: block; }
+            .themeOne .section .container-images-trends .images .allImages .containerImg .imgClass {
+              width: 100%;
+              height: 100%;
+              object-fit: cover; }
+              .themeOne .section .container-images-trends .images .allImages .containerImg .imgClass:nth-of-type(5) {
+                grid-column-start: span 2; }
+              .themeOne .section .container-images-trends .images .allImages .containerImg .imgClass:nth-of-type(10) {
+                grid-column-start: span 2; }
+              .themeOne .section .container-images-trends .images .allImages .containerImg .imgClass:nth-of-type(15) {
+                grid-column-start: span 2; }
+              .themeOne .section .container-images-trends .images .allImages .containerImg .imgClass:nth-of-type(20) {
+                grid-column-start: span 2; }
+            .themeOne .section .container-images-trends .images .allImages .containerImg p {
+              width: 100%;
+              box-shadow: 0 1px 0 0 #110038;
+              background-image: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%);
+              position: absolute;
+              bottom: 0;
+              display: none;
+              color: #ffffff;
+              width: 100%;
+              object-fit: cover;
+              text-align: center; } }
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  .themeCreateOne .header {
+    width: 100%;
+    box-shadow: 0 1px 0 0 #110038;
+    background-image: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%); }
+    .themeCreateOne .header .wellcome {
+      padding: 5px 10px;
+      line-height: 20px;
+      color: #ffffff;
+      padding-top: 3px;
+      padding-bottom: 4px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 1440px) {
+      .themeCreateOne .header .wellcome {
+        font-size: 12px; } }
+  @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 1440px) {
+    .themeCreateOne .header {
+      height: 23px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  .themeCreateOne .section {
+    width: 100%;
+    height: 100%;
+    background-color: #fff4fd; }
+    .themeCreateOne .section .containerLogoAndMenu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 10px 19px 10px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+      .themeCreateOne .section .containerLogoAndMenu {
+        padding: 25px 70px 19px 30px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1100px) {
+      .themeCreateOne .section .containerLogoAndMenu {
+        padding: 25px 100px 19px 60px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1440px) {
+      .themeCreateOne .section .containerLogoAndMenu {
+        padding: 25px 140px 19px 100px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+      .themeCreateOne .section .containerLogoAndMenu .containerlogoAndArrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
+        .themeCreateOne .section .containerLogoAndMenu .containerlogoAndArrow .arrowLeft {
+          margin-right: 10px; }
+        .themeCreateOne .section .containerLogoAndMenu .containerlogoAndArrow .logo {
+          width: 102px; }
+      .themeCreateOne .section .containerLogoAndMenu .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative; }
+        .themeCreateOne .section .containerLogoAndMenu .menu .buttonBoxOne {
+          width: 144px;
+          height: 36px;
+          font-size: 16px;
+          margin-left: 15px;
+          margin-right: 16px;
+          padding: 4px 0;
+          border: 1px solid #110038;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          color: #110038;
+          background-color: #f7c9f3; }
+          .themeCreateOne .section .containerLogoAndMenu .menu .buttonBoxOne:focus {
+            outline: none; }
+          .themeCreateOne .section .containerLogoAndMenu .menu .buttonBoxOne:hover {
+            border: 1px dashed #110038;
+            background-color: #e6bbe2;
+            cursor: pointer; }
+          .themeCreateOne .section .containerLogoAndMenu .menu .buttonBoxOne:active {
+            border: 1px dashed #110038;
+            background-color: #e6bbe2; }
+        .themeCreateOne .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+          .themeCreateOne .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow:focus {
+            outline: none; }
+          .themeCreateOne .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow:hover > .buttonBoxTwo {
+            border: 1px dashed #110038;
+            background-color: #e6bbe2; }
+          .themeCreateOne .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow:hover > .arrow > img {
+            border: 1px dashed #110038;
+            background-color: #e6bbe2; }
+          .themeCreateOne .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow .buttonBoxTwo {
+            width: 108px;
+            height: 36px;
+            margin-right: 0;
+            font-size: 16px;
+            padding: 4px 0;
+            border: 1px solid #110038;
+            box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+            color: #110038;
+            background-color: #f7c9f3; }
+            .themeCreateOne .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow .buttonBoxTwo:focus {
+              outline: none; }
+          .themeCreateOne .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow .arrow {
+            width: 36px;
+            height: 34px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f7c9f3;
+            border: 1px solid #110038;
+            box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff; }
+            .themeCreateOne .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow .arrow:hover {
+              cursor: pointer; }
+            .themeCreateOne .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow .arrow img {
+              width: 10px;
+              height: 6px;
+              margin: 0 5px;
+              padding: 12px 9px; }
+        .themeCreateOne .section .containerLogoAndMenu .menu .optionsThemes {
+          width: 137px;
+          top: 36px;
+          display: none;
+          list-style: none;
+          padding-top: 10px;
+          padding-left: 10px;
+          padding-bottom: 10px;
+          position: absolute;
+          background-color: #e6e6e6;
+          box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 1440px) {
+          .themeCreateOne .section .containerLogoAndMenu .menu .optionsThemes {
+            left: 175px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+          .themeCreateOne .section .containerLogoAndMenu .menu .optionsThemes li {
+            width: 125px;
+            background-color: #f0f0f0;
+            border: 1px solid #808080;
+            box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+            cursor: pointer; }
+            .themeCreateOne .section .containerLogoAndMenu .menu .optionsThemes li:hover {
+              background-color: #fff4fd; }
+            .themeCreateOne .section .containerLogoAndMenu .menu .optionsThemes li:hover span {
+              text-decoration: underline; }
+            .themeCreateOne .section .containerLogoAndMenu .menu .optionsThemes li:active {
+              background-color: #fff4fd; }
+            .themeCreateOne .section .containerLogoAndMenu .menu .optionsThemes li:nth-of-type(1) {
+              margin-bottom: 10px; }
+            .themeCreateOne .section .containerLogoAndMenu .menu .optionsThemes li .text-themes {
+              width: 100%;
+              padding-top: 7px;
+              padding-bottom: 7px;
+              margin-left: 10px;
+              font-family: 'ChakraPetch-Regular';
+              font-size: 16px;
+              color: #110038;
+              letter-spacing: 0;
+              line-height: 22px;
+              text-decoration: none; }
+              .themeCreateOne .section .containerLogoAndMenu .menu .optionsThemes li .text-themes:hover {
+                color: #110038; }
+        .themeCreateOne .section .containerLogoAndMenu .menu .buttonNonBox {
+          font-size: 16px;
+          line-height: 18px;
+          color: #110038;
+          padding: 7px;
+          margin-left: 16px;
+          border: 1px dashed transparent;
+          background-color: transparent;
+          outline: none; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 1440px) {
+          .themeCreateOne .section .containerLogoAndMenu .menu .buttonNonBox {
+            font-size: 16px;
+            margin-left: 16.5px;
+            padding: 8px 5px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+          .themeCreateOne .section .containerLogoAndMenu .menu .buttonNonBox span {
+            text-decoration: underline; }
+    .themeCreateOne .section .containerCreateGifos {
+      width: auto;
+      height: auto;
+      background-color: #e6e6e6;
+      box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 959px) {
+      .themeCreateOne .section .containerCreateGifos {
+        padding-top: 2px;
+        margin: 0 150px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 960px) and (max-width: 1069px) {
+      .themeCreateOne .section .containerCreateGifos {
+        padding-top: 2px;
+        margin: 0 220px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1070px) and (max-width: 1139px) {
+      .themeCreateOne .section .containerCreateGifos {
+        padding-top: 2px;
+        margin: 0 270px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1140px) and (max-width: 1369px) {
+      .themeCreateOne .section .containerCreateGifos {
+        padding-top: 2px;
+        margin: 0 300px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1370px) and (max-width: 1440px) {
+      .themeCreateOne .section .containerCreateGifos {
+        padding-top: 2px;
+        margin: 0 378px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+      .themeCreateOne .section .containerCreateGifos .containerTitle {
+        width: auto;
+        background-image: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%);
+        margin-left: 2px;
+        margin-right: 2px; }
+        .themeCreateOne .section .containerCreateGifos .containerTitle .title {
+          font-family: 'ChakraPetch-Bold';
+          font-size: 14px;
+          color: #ffffff;
+          letter-spacing: 0;
+          padding-left: 7px; }
+      .themeCreateOne .section .containerCreateGifos .containerLogoList {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 30px;
+        padding-left: 25px; }
+        .themeCreateOne .section .containerCreateGifos .containerLogoList img {
+          margin-right: 16px; }
+        .themeCreateOne .section .containerCreateGifos .containerLogoList .containerList .title {
+          font-family: 'ChakraPetch-Bold';
+          font-size: 16px;
+          color: #110038;
+          letter-spacing: 0;
+          line-height: 22px; }
+        .themeCreateOne .section .containerCreateGifos .containerLogoList .containerList .titleSteps {
+          font-size: 14px;
+          color: #110038;
+          letter-spacing: 0;
+          line-height: 20px;
+          margin-top: 17px;
+          padding-bottom: 10px; }
+        .themeCreateOne .section .containerCreateGifos .containerLogoList .containerList .steps {
+          font-size: 14px;
+          color: #110038;
+          letter-spacing: 0;
+          line-height: 20px;
+          list-style: none;
+          padding-bottom: 10px; }
+          .themeCreateOne .section .containerCreateGifos .containerLogoList .containerList .steps li {
+            padding: 10px 0; }
+        .themeCreateOne .section .containerCreateGifos .containerLogoList .containerList .question {
+          font-size: 14px;
+          color: #110038;
+          letter-spacing: 0;
+          line-height: 20px; }
+      .themeCreateOne .section .containerCreateGifos .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 36px;
+        padding-top: 28px;
+        padding-bottom: 36px; }
+        .themeCreateOne .section .containerCreateGifos .buttons .buttonOne {
+          width: 144px;
+          height: 36px;
+          font-size: 16px;
+          margin-left: 15px;
+          margin-right: 16px;
+          padding: 4px 0;
+          border: 1px solid #110038;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          color: #110038;
+          letter-spacing: 0;
+          text-align: center;
+          line-height: 18px;
+          background-color: #fff4fd; }
+          .themeCreateOne .section .containerCreateGifos .buttons .buttonOne:focus {
+            outline: none; }
+        .themeCreateOne .section .containerCreateGifos .buttons .buttonTwo {
+          width: 144px;
+          height: 36px;
+          font-size: 16px;
+          margin-left: 15px;
+          margin-right: 16px;
+          padding: 4px 0;
+          border: 1px solid #110038;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          color: #110038;
+          letter-spacing: 0;
+          text-align: center;
+          line-height: 18px;
+          background-color: #f7c9f3; }
+          .themeCreateOne .section .containerCreateGifos .buttons .buttonTwo:focus {
+            outline: none; }
+    .themeCreateOne .section .windowCaptureVideo {
+      width: auto;
+      background-color: #e6e6e6;
+      box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+      position: relative; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 959px) {
+      .themeCreateOne .section .windowCaptureVideo {
+        padding-top: 2px;
+        margin: 0 150px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 960px) and (max-width: 1069px) {
+      .themeCreateOne .section .windowCaptureVideo {
+        padding-top: 2px;
+        margin: 0 220px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1070px) and (max-width: 1139px) {
+      .themeCreateOne .section .windowCaptureVideo {
+        padding-top: 2px;
+        margin: 0 270px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1140px) and (max-width: 1369px) {
+      .themeCreateOne .section .windowCaptureVideo {
+        height: 450px;
+        padding-top: 2px;
+        margin: 0 300px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1370px) and (max-width: 1440px) {
+      .themeCreateOne .section .windowCaptureVideo {
+        height: 548px;
+        padding-top: 2px;
+        margin: 0 378px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+      .themeCreateOne .section .windowCaptureVideo .windowCaptureVideoContainerTitle {
+        width: auto;
+        height: 24px;
+        background-image: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%);
+        margin-left: 2px;
+        margin-right: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; }
+        .themeCreateOne .section .windowCaptureVideo .windowCaptureVideoContainerTitle .windowCaptureVideoTitle {
+          width: auto;
+          height: 18px;
+          font-family: 'ChakraPetch-Bold';
+          font-size: 14px;
+          color: #ffffff;
+          letter-spacing: 0;
+          padding-left: 7px; }
+        .themeCreateOne .section .windowCaptureVideo .windowCaptureVideoContainerTitle .imgClose {
+          padding-right: 7px; }
+      .themeCreateOne .section .windowCaptureVideo .liveVideo {
+        width: 96%;
+        background-color: #ffffff;
+        border: 1px solid #979797;
+        box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+        margin-top: 8px;
+        margin-left: 8px; }
+      .themeCreateOne .section .windowCaptureVideo .recordedVideo {
+        width: 96%;
+        background-color: #ffffff;
+        border: 1px solid #979797;
+        box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+        margin-top: 8px;
+        margin-left: 8px;
+        height: 300px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 959px) {
+        .themeCreateOne .section .windowCaptureVideo .recordedVideo {
+          height: 300px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1070px) and (max-width: 1139px) {
+        .themeCreateOne .section .windowCaptureVideo .recordedVideo {
+          height: 300px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1140px) and (max-width: 1369px) {
+        .themeCreateOne .section .windowCaptureVideo .recordedVideo {
+          height: 350px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1370px) and (max-width: 1440px) {
+        .themeCreateOne .section .windowCaptureVideo .recordedVideo {
+          height: 400px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+      .themeCreateOne .section .windowCaptureVideo .containerCamera {
+        width: 34px;
+        height: 34px;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+        color: #110038;
+        font-family: 'ChakraPetch-Regular';
+        font-size: 16px;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 18px;
+        position: absolute;
+        bottom: 16px;
+        right: 158px; }
+        .themeCreateOne .section .windowCaptureVideo .containerCamera .camera {
+          width: 15px;
+          height: 15px;
+          margin-top: 8px; }
+      .themeCreateOne .section .windowCaptureVideo .buttonCapture {
+        width: 144px;
+        height: 36px;
+        background-color: #f7c9f3;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+        font-family: 'ChakraPetch-Regular';
+        font-size: 16px;
+        color: #110038;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 18px;
+        position: absolute;
+        bottom: 16px;
+        right: 16px; }
+      .themeCreateOne .section .windowCaptureVideo .buttonDone {
+        width: 144px;
+        height: 36px;
+        background-color: #ff6161;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #993a3a, inset 1px 1px 0 0 #ffffff;
+        font-family: 'ChakraPetch-Regular';
+        font-size: 16px;
+        color: #110038;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 18px;
+        position: absolute;
+        bottom: 16px;
+        right: 16px; }
+      .themeCreateOne .section .windowCaptureVideo .buttonUpload {
+        width: 144px;
+        height: 36px;
+        background-color: #f7c9f3;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+        font-family: 'ChakraPetch-Regular';
+        font-size: 16px;
+        color: #110038;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 18px;
+        position: absolute;
+        bottom: 16px;
+        right: 16px; }
+      .themeCreateOne .section .windowCaptureVideo .windowUploading {
+        width: 96%;
+        background-color: #ffffff;
+        border: 1px solid #979797;
+        box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+        margin-top: 8px;
+        margin-left: 8px;
+        position: relative;
+        height: 300px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 959px) {
+        .themeCreateOne .section .windowCaptureVideo .windowUploading {
+          height: 300px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1070px) and (max-width: 1139px) {
+        .themeCreateOne .section .windowCaptureVideo .windowUploading {
+          height: 300px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1140px) and (max-width: 1369px) {
+        .themeCreateOne .section .windowCaptureVideo .windowUploading {
+          height: 350px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1370px) and (max-width: 1440px) {
+        .themeCreateOne .section .windowCaptureVideo .windowUploading {
+          height: 400px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+        .themeCreateOne .section .windowCaptureVideo .windowUploading .containerWindowUploading {
+          width: auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 300px; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 959px) {
+          .themeCreateOne .section .windowCaptureVideo .windowUploading .containerWindowUploading {
+            height: 300px; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1070px) and (max-width: 1139px) {
+          .themeCreateOne .section .windowCaptureVideo .windowUploading .containerWindowUploading {
+            height: 300px; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1140px) and (max-width: 1369px) {
+          .themeCreateOne .section .windowCaptureVideo .windowUploading .containerWindowUploading {
+            height: 350px; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1370px) and (max-width: 1440px) {
+          .themeCreateOne .section .windowCaptureVideo .windowUploading .containerWindowUploading {
+            height: 400px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+          .themeCreateOne .section .windowCaptureVideo .windowUploading .containerWindowUploading .titleUploading {
+            font-family: 'ChakraPetch-Bold';
+            font-size: 16px;
+            color: #110038;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 22px; }
+          .themeCreateOne .section .windowCaptureVideo .windowUploading .containerWindowUploading .progressBar {
+            width: 300px;
+            height: 24px;
+            background-color: #b4b4b4;
+            box-shadow: inset 2px 2px 0 0 #fffcfc, inset -2px -2px 0 0 #000000;
+            margin-top: 39px; } }
+          @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 959px) {
+            .themeCreateOne .section .windowCaptureVideo .windowUploading .containerWindowUploading .progressBar {
+              width: 300px; } }
+          @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 960px) and (max-width: 1069px) {
+            .themeCreateOne .section .windowCaptureVideo .windowUploading .containerWindowUploading .progressBar {
+              width: 300px; } }
+          @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1070px) and (max-width: 1139px) {
+            .themeCreateOne .section .windowCaptureVideo .windowUploading .containerWindowUploading .progressBar {
+              width: 300px; } }
+          @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1140px) and (max-width: 1369px) {
+            .themeCreateOne .section .windowCaptureVideo .windowUploading .containerWindowUploading .progressBar {
+              width: 300px; } }
+          @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1370px) and (max-width: 1440px) {
+            .themeCreateOne .section .windowCaptureVideo .windowUploading .containerWindowUploading .progressBar {
+              width: 300px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+            .themeCreateOne .section .windowCaptureVideo .windowUploading .containerWindowUploading .progressBar .progress {
+              width: 300px;
+              height: 24px;
+              background-color: #f7c9f3;
+              box-shadow: inset 2px 2px 0 0 #fffcfc, inset -2px -2px 0 0 #000000;
+              display: inline-block; }
+        .themeCreateOne .section .windowCaptureVideo .windowUploading .buttonCancel {
+          width: 144px;
+          height: 36px;
+          font-size: 16px;
+          margin-left: 15px;
+          margin-right: 16px;
+          padding: 4px 0;
+          border: 1px solid #110038;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          color: #110038;
+          letter-spacing: 0;
+          text-align: center;
+          line-height: 18px;
+          position: absolute;
+          right: 0;
+          margin-top: 21px; }
+          .themeCreateOne .section .windowCaptureVideo .windowUploading .buttonCancel:focus {
+            outline: none; }
+      .themeCreateOne .section .windowCaptureVideo .repeatCapture {
+        width: 144px;
+        height: 36px;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+        color: #110038;
+        font-family: 'ChakraPetch-Regular';
+        font-size: 16px;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 18px;
+        position: absolute;
+        bottom: 16px;
+        right: 180px; }
+    .themeCreateOne .section .windowSuccessUpload {
+      background-color: #e6e6e6;
+      box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+      position: relative; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 959px) {
+      .themeCreateOne .section .windowSuccessUpload {
+        width: 721px;
+        height: 391px;
+        margin: 85px 150px 0 150px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 960px) and (max-width: 1069px) {
+      .themeCreateOne .section .windowSuccessUpload {
+        width: 721px;
+        height: 391px;
+        margin: 85px 150px 0 150px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1070px) and (max-width: 1139px) {
+      .themeCreateOne .section .windowSuccessUpload {
+        width: 721px;
+        height: 391px;
+        margin: 85px 270px 0 270px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1140px) and (max-width: 1369px) {
+      .themeCreateOne .section .windowSuccessUpload {
+        width: 721px;
+        height: 391px;
+        margin: 85px 300px 0 300px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1370px) and (max-width: 1440px) {
+      .themeCreateOne .section .windowSuccessUpload {
+        width: 721px;
+        height: 391px;
+        margin: 85px 378px 0 378px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+      .themeCreateOne .section .windowSuccessUpload .windowSuccessUploadContainerTitle {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 24px;
+        background-image: linear-gradient(270deg, #f7c9f3 0%, #4180f6 100%); }
+        .themeCreateOne .section .windowSuccessUpload .windowSuccessUploadContainerTitle .windowSuccessTitle {
+          font-family: 'ChakraPetch-Bold';
+          font-size: 14px;
+          color: #ffffff;
+          letter-spacing: 0;
+          margin-left: 7px; }
+        .themeCreateOne .section .windowSuccessUpload .windowSuccessUploadContainerTitle .windowSuccessClose {
+          width: 16px;
+          height: 14px;
+          margin-right: 7px; }
+      .themeCreateOne .section .windowSuccessUpload .checkGifAndButtonsContainer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center; }
+        .themeCreateOne .section .windowSuccessUpload .checkGifAndButtonsContainer .checkGif {
+          width: 371px;
+          height: 196px;
+          margin-top: 27px;
+          margin-left: 24px;
+          background-color: #ffffff;
+          border: 1px solid #979797;
+          box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000; }
+          .themeCreateOne .section .windowSuccessUpload .checkGifAndButtonsContainer .checkGif .imgGif {
+            width: 365px;
+            height: 191px;
+            margin: 2px 3px 3px 3px; }
+        .themeCreateOne .section .windowSuccessUpload .checkGifAndButtonsContainer .containerButtons {
+          margin-left: 27px;
+          display: flex;
+          flex-direction: column; }
+          .themeCreateOne .section .windowSuccessUpload .checkGifAndButtonsContainer .containerButtons .titleContainerButtons {
+            font-family: 'ChakraPetch-Bold';
+            font-size: 16px;
+            color: #110038;
+            letter-spacing: 0;
+            line-height: 22px; }
+          .themeCreateOne .section .windowSuccessUpload .checkGifAndButtonsContainer .containerButtons .buttons {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start; }
+            .themeCreateOne .section .windowSuccessUpload .checkGifAndButtonsContainer .containerButtons .buttons .buttonCopyLink {
+              width: 256px;
+              height: 36px;
+              background-color: #fff4fd;
+              border: 1px solid #110038;
+              box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+              font-family: 'ChakraPetch-Regular';
+              font-size: 16px;
+              color: #110038;
+              letter-spacing: 0;
+              text-align: center;
+              line-height: 18px;
+              margin-top: 16px;
+              margin-bottom: 14px; }
+            .themeCreateOne .section .windowSuccessUpload .checkGifAndButtonsContainer .containerButtons .buttons .downloadGif {
+              width: 256px;
+              height: auto;
+              background-color: #fff4fd;
+              border: 1px solid #110038;
+              box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+              font-family: 'ChakraPetch-Regular';
+              font-size: 16px;
+              color: #110038;
+              letter-spacing: 0;
+              text-align: center;
+              line-height: 18px;
+              text-decoration: none;
+              padding-top: 8px;
+              padding-bottom: 8px; }
+      .themeCreateOne .section .windowSuccessUpload .containerButtonOk {
+        width: 100%;
+        height: auto; }
+        .themeCreateOne .section .windowSuccessUpload .containerButtonOk .buttonOK {
+          width: 144px;
+          height: 36px;
+          background-color: #f7c9f3;
+          border: 1px solid #110038;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          position: absolute;
+          right: 46px;
+          bottom: 44px;
+          font-family: 'ChakraPetch-Regular';
+          font-size: 16px;
+          color: #110038;
+          letter-spacing: 0;
+          text-align: center;
+          line-height: 18px; }
+    .themeCreateOne .section .container-myGifs {
+      width: 100%;
+      height: 100%;
+      padding-bottom: 50px; }
+      .themeCreateOne .section .container-myGifs .container-title {
+        width: auto;
+        background-color: #fffafe;
+        border: 1px solid #e6bbe2;
+        box-shadow: inset -2px -2px 0 0 #e6dce4, inset 2px 2px 0 0 #80687d; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+        .themeCreateOne .section .container-myGifs .container-title {
+          margin: 64px 70px 0 30px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1100px) {
+        .themeCreateOne .section .container-myGifs .container-title {
+          margin: 64px 100px 0 60px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1440px) {
+        .themeCreateOne .section .container-myGifs .container-title {
+          margin: 64px 140px 0 100px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+        .themeCreateOne .section .container-myGifs .container-title .title-text {
+          font-family: 'ChakraPetch-Regular';
+          font-size: 14px;
+          color: #110038;
+          letter-spacing: 0;
+          margin-top: 7px;
+          margin-bottom: 7px;
+          margin-left: 7px; }
+      .themeCreateOne .section .container-myGifs .containerGifs {
+        margin-top: 16px;
+        margin-left: 100px;
+        margin-right: 140px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 14px;
+        grid-auto-rows: 298px; }
+        .themeCreateOne .section .container-myGifs .containerGifs a:nth-of-type(5) {
+          grid-column-start: span 2; }
+        .themeCreateOne .section .container-myGifs .containerGifs a:nth-of-type(10) {
+          grid-column-start: span 2; }
+        .themeCreateOne .section .container-myGifs .containerGifs a:nth-of-type(15) {
+          grid-column-start: span 2; }
+        .themeCreateOne .section .container-myGifs .containerGifs a:nth-of-type(20) {
+          grid-column-start: span 2; }
+        .themeCreateOne .section .container-myGifs .containerGifs a img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: inline-block; }
+          .themeCreateOne .section .container-myGifs .containerGifs a img:nth-of-type(5) {
+            grid-column-start: span 2; }
+          .themeCreateOne .section .container-myGifs .containerGifs a img:nth-of-type(10) {
+            grid-column-start: span 2; }
+          .themeCreateOne .section .container-myGifs .containerGifs a img:nth-of-type(15) {
+            grid-column-start: span 2; }
+          .themeCreateOne .section .container-myGifs .containerGifs a img:nth-of-type(20) {
+            grid-column-start: span 2; } }
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  .themeTwo .header {
+    width: 100%;
+    box-shadow: 0 1px 0 0 #110038;
+    background-image: linear-gradient(270deg, #ee3efe 0%, #2e32fb 100%); }
+    .themeTwo .header .wellcome {
+      padding: 5px 10px;
+      line-height: 20px;
+      color: #ffffff;
+      padding-top: 3px;
+      padding-bottom: 4px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 1440px) {
+      .themeTwo .header .wellcome {
+        font-size: 12px; } }
+  @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 1440px) {
+    .themeTwo .header {
+      height: 23px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  .themeTwo .section {
+    width: 100%;
+    height: 100%;
+    background-color: #110038; }
+    .themeTwo .section .logoAndMenu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 10px 19px 10px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+      .themeTwo .section .logoAndMenu {
+        padding: 25px 70px 19px 30px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1100px) {
+      .themeTwo .section .logoAndMenu {
+        padding: 25px 100px 19px 60px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1440px) {
+      .themeTwo .section .logoAndMenu {
+        padding: 25px 140px 19px 100px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+      .themeTwo .section .logoAndMenu .logo {
+        width: 55px; }
+      .themeTwo .section .logoAndMenu .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative; }
+        .themeTwo .section .logoAndMenu .menu .buttonBoxOne {
+          width: 144px;
+          height: 36px;
+          font-size: 16px;
+          margin-left: 15px;
+          margin-right: 16px;
+          padding: 4px 0;
+          background-color: #ee3efe;
+          border: 1px solid #110038;
+          box-shadow: inset -1px -1px 0 0 #a72cb3, inset 1px 1px 0 0 #ffffff;
+          color: #ffffff; }
+          .themeTwo .section .logoAndMenu .menu .buttonBoxOne:focus {
+            outline: none; }
+          .themeTwo .section .logoAndMenu .menu .buttonBoxOne:hover {
+            border: 1px dashed #110038;
+            background-color: #ce36db;
+            cursor: pointer; }
+          .themeTwo .section .logoAndMenu .menu .buttonBoxOne:active {
+            border: 1px dashed #110038;
+            background-color: #ce36db; }
+        .themeTwo .section .logoAndMenu .menu .buttonBoxTwoAndArrow {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+          .themeTwo .section .logoAndMenu .menu .buttonBoxTwoAndArrow:focus {
+            outline: none; }
+          .themeTwo .section .logoAndMenu .menu .buttonBoxTwoAndArrow:hover > .buttonBoxTwo {
+            border: 1px dashed #110038;
+            background-color: #ce36db; }
+          .themeTwo .section .logoAndMenu .menu .buttonBoxTwoAndArrow:hover > .arrow > img {
+            border: 1px dashed #110038;
+            background-color: #ce36db; }
+          .themeTwo .section .logoAndMenu .menu .buttonBoxTwoAndArrow .buttonBoxTwo {
+            width: 108px;
+            height: 36px;
+            margin-right: 0;
+            font-size: 16px;
+            padding: 4px 0;
+            background-color: #ee3efe;
+            border: 1px solid #110038;
+            box-shadow: inset -1px -1px 0 0 #a72cb3, inset 1px 1px 0 0 #ffffff;
+            color: #ffffff; }
+            .themeTwo .section .logoAndMenu .menu .buttonBoxTwoAndArrow .buttonBoxTwo:focus {
+              outline: none; }
+          .themeTwo .section .logoAndMenu .menu .buttonBoxTwoAndArrow .arrow {
+            width: 36px;
+            height: 34px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ee3efe;
+            border: 1px solid #110038;
+            box-shadow: inset -1px -1px 0 0 #a72cb3, inset 1px 1px 0 0 #ffffff; }
+            .themeTwo .section .logoAndMenu .menu .buttonBoxTwoAndArrow .arrow:hover {
+              cursor: pointer; }
+            .themeTwo .section .logoAndMenu .menu .buttonBoxTwoAndArrow .arrow img {
+              width: 10px;
+              height: 6px;
+              margin: 0 5px;
+              padding: 12px 9px; }
+        .themeTwo .section .logoAndMenu .menu .optionsThemes {
+          width: 137px;
+          top: 36px;
+          display: none;
+          list-style: none;
+          padding-top: 10px;
+          padding-left: 10px;
+          padding-bottom: 10px;
+          position: absolute;
+          background-color: #b4b4b4;
+          box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 1440px) {
+          .themeTwo .section .logoAndMenu .menu .optionsThemes {
+            left: 175px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+          .themeTwo .section .logoAndMenu .menu .optionsThemes li {
+            width: 125px;
+            background-color: #cccccc;
+            border: 1px solid #808080;
+            box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+            cursor: pointer; }
+            .themeTwo .section .logoAndMenu .menu .optionsThemes li:hover {
+              background-color: #2e32fb;
+              border: 1px solid rgba(51, 53, 143, 0.2);
+              box-shadow: inset -1px -1px 0 0 #e6dce4, inset 1px 1px 0 0 #ffffff; }
+            .themeTwo .section .logoAndMenu .menu .optionsThemes li:hover span {
+              text-decoration: #ffffff underline; }
+            .themeTwo .section .logoAndMenu .menu .optionsThemes li:active {
+              background-color: #2e32fb;
+              border: 1px solid rgba(51, 53, 143, 0.2);
+              box-shadow: inset -1px -1px 0 0 #e6dce4, inset 1px 1px 0 0 #ffffff; }
+            .themeTwo .section .logoAndMenu .menu .optionsThemes li:nth-of-type(1) {
+              margin-bottom: 10px; }
+            .themeTwo .section .logoAndMenu .menu .optionsThemes li .text-themes {
+              width: 100%;
+              padding-top: 7px;
+              padding-bottom: 7px;
+              margin-left: 10px;
+              font-family: 'ChakraPetch-Regular';
+              font-size: 16px;
+              color: #110038;
+              letter-spacing: 0;
+              line-height: 22px;
+              text-decoration: none; }
+              .themeTwo .section .logoAndMenu .menu .optionsThemes li .text-themes:hover {
+                color: #ffffff; }
+        .themeTwo .section .logoAndMenu .menu .buttonNonBox {
+          font-size: 16px;
+          line-height: 18px;
+          color: #ffffff;
+          padding: 7px;
+          margin-left: 16px;
+          border: 1px dashed transparent;
+          background-color: transparent;
+          outline: none; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 1440px) {
+          .themeTwo .section .logoAndMenu .menu .buttonNonBox {
+            font-size: 16px;
+            margin-left: 16.5px;
+            padding: 8px 5px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+          .themeTwo .section .logoAndMenu .menu .buttonNonBox:hover {
+            border: 1px dashed #ffffff;
+            outline: none;
+            cursor: pointer; }
+          .themeTwo .section .logoAndMenu .menu .buttonNonBox:hover > span {
+            text-decoration: underline; }
+          .themeTwo .section .logoAndMenu .menu .buttonNonBox:active {
+            color: #ffffff;
+            border: 1px dashed transparent;
+            outline: none; }
+          .themeTwo .section .logoAndMenu .menu .buttonNonBox span {
+            text-decoration: transparent; }
+    .themeTwo .section .container-form {
+      width: auto;
+      height: auto;
+      padding-top: 3px;
+      background-color: #b4b4b4;
+      box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+      .themeTwo .section .container-form {
+        margin: 0 70px 0 30px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1100px) {
+      .themeTwo .section .container-form {
+        margin: 0 100px 0 60px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1440px) {
+      .themeTwo .section .container-form {
+        margin: 0 140px 0 100px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+      .themeTwo .section .container-form .title-search {
+        width: auto;
+        background-image: linear-gradient(270deg, #ee3efe 0%, #2e32fb 100%);
+        font-family: 'ChakraPetch-Bold';
+        font-size: 14px;
+        color: #ffffff;
+        letter-spacing: 0;
+        padding: 3px 0 3px 6px;
+        margin-left: 3px;
+        margin-right: 3px; }
+      .themeTwo .section .container-form form {
+        width: auto;
+        height: 48px;
+        padding: 12px 15px; }
+        .themeTwo .section .container-form form .input-search {
+          height: 48px;
+          font-size: 16px;
+          padding-left: 5px;
+          background-color: #ffffff;
+          border: 1px solid #979797;
+          box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+          color: #b4b4b4; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+          .themeTwo .section .container-form form .input-search {
+            width: 81%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1000px) {
+          .themeTwo .section .container-form form .input-search {
+            width: 83%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1001px) and (max-width: 1200px) {
+          .themeTwo .section .container-form form .input-search {
+            width: 85%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1201px) and (max-width: 1300px) {
+          .themeTwo .section .container-form form .input-search {
+            width: 87%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1301px) and (max-width: 1400px) {
+          .themeTwo .section .container-form form .input-search {
+            width: 89%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1401px) and (max-width: 1440px) {
+          .themeTwo .section .container-form form .input-search {
+            width: 90%; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+        .themeTwo .section .container-form form .button-searchTwo {
+          width: 102px;
+          height: 36px;
+          margin-top: 10px;
+          font-size: 16px;
+          background-color: #b4b4b4;
+          border: 1px solid #808080;
+          box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+          color: #8f8f8f;
+          padding: 4px 0; }
+          .themeTwo .section .container-form form .button-searchTwo:hover {
+            cursor: pointer; }
+          .themeTwo .section .container-form form .button-searchTwo .glassAndSearch {
+            padding: 2px 7px; }
+            .themeTwo .section .container-form form .button-searchTwo .glassAndSearch:active {
+              background-color: #ce36db;
+              border: 1px dashed #110038;
+              box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff; }
+      .themeTwo .section .container-form .hiddenContainerForm {
+        width: auto;
+        height: 0;
+        background-color: #b4b4b4;
+        box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff;
+        padding-top: 0; }
+        .themeTwo .section .container-form .hiddenContainerForm .option {
+          height: 34px;
+          background-color: #cccccc;
+          border: 1px solid #110038;
+          box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+          margin-left: 16px;
+          margin-bottom: 11px;
+          opacity: 0;
+          font-family: 'ChakraPetch-Regular';
+          font-size: 16px;
+          color: #110038;
+          letter-spacing: 0;
+          line-height: 22px;
+          padding: 6px 15px;
+          text-align: start; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+          .themeTwo .section .container-form .hiddenContainerForm .option {
+            width: 78%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1000px) {
+          .themeTwo .section .container-form .hiddenContainerForm .option {
+            width: 80%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1001px) and (max-width: 1200px) {
+          .themeTwo .section .container-form .hiddenContainerForm .option {
+            width: 83%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1201px) and (max-width: 1300px) {
+          .themeTwo .section .container-form .hiddenContainerForm .option {
+            width: 85%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1301px) and (max-width: 1400px) {
+          .themeTwo .section .container-form .hiddenContainerForm .option {
+            width: 87%; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1401px) and (max-width: 1440px) {
+          .themeTwo .section .container-form .hiddenContainerForm .option {
+            width: 88%; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+          .themeTwo .section .container-form .hiddenContainerForm .option:hover {
+            background-color: #f0f0f0; }
+      .themeTwo .section .container-form .containerHistoryButtons {
+        height: 50px;
+        overflow: hidden;
+        background-color: #110038; }
+      .themeTwo .section .container-form .containerHistory {
+        height: 50px;
+        overflow: hidden;
+        background-color: #fff4fd; }
+    .themeTwo .section .container-imgsSugestions {
+      width: 100%;
+      height: auto; }
+      .themeTwo .section .container-imgsSugestions .container-sugestions {
+        width: auto;
+        background: #fffafe;
+        border: 1px solid #2e32fb;
+        box-shadow: inset -2px -2px 0 0 #e6dce4, inset 2px 2px 0 0 #110038; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+        .themeTwo .section .container-imgsSugestions .container-sugestions {
+          margin: 64px 70px 0 30px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1100px) {
+        .themeTwo .section .container-imgsSugestions .container-sugestions {
+          margin: 64px 100px 0 60px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1440px) {
+        .themeTwo .section .container-imgsSugestions .container-sugestions {
+          margin: 64px 140px 0 100px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+        .themeTwo .section .container-imgsSugestions .container-sugestions .sugestions-text {
+          font-size: 14px;
+          color: #110038;
+          letter-spacing: 0;
+          margin-top: 7px;
+          margin-bottom: 7px;
+          margin-left: 7px; }
+      .themeTwo .section .container-imgsSugestions .sugestions-imgs {
+        width: auto;
+        height: 100%;
+        margin-top: 19px;
+        display: grid;
+        grid-template-rows: auto;
+        gap: 24px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+        .themeTwo .section .container-imgsSugestions .sugestions-imgs {
+          margin-left: 30px;
+          margin-right: 70px;
+          grid-template-columns: 48% 48%; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1000px) {
+        .themeTwo .section .container-imgsSugestions .sugestions-imgs {
+          margin-left: 60px;
+          margin-right: 100px;
+          grid-template-columns: 31.1% 31.1% 31.1%; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1001px) and (max-width: 1100px) {
+        .themeTwo .section .container-imgsSugestions .sugestions-imgs {
+          margin-left: 60px;
+          margin-right: 100px;
+          grid-template-columns: 31.4% 31.4% 31.4%; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1300px) {
+        .themeTwo .section .container-imgsSugestions .sugestions-imgs {
+          margin-left: 100px;
+          margin-right: 140px;
+          grid-template-columns: 23% 23% 23% 23%; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1301px) and (max-width: 1440px) {
+        .themeTwo .section .container-imgsSugestions .sugestions-imgs {
+          margin-left: 100px;
+          margin-right: 140px;
+          grid-template-columns: 23.4% 23.4% 23.4% 23.4%; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+        .themeTwo .section .container-imgsSugestions .sugestions-imgs .container-img {
+          background: #b4b4b4;
+          box-shadow: inset -2px -2px 0 0 #5c5c5c, inset 2px 2px 0 0 #ffffff;
+          padding: 1px 3px;
+          position: relative; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1300px) {
+          .themeTwo .section .container-imgsSugestions .sugestions-imgs .container-img {
+            width: 240px;
+            height: 240px; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1301px) and (max-width: 1440px) {
+          .themeTwo .section .container-imgsSugestions .sugestions-imgs .container-img {
+            width: 280px;
+            height: 313px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+          .themeTwo .section .container-imgsSugestions .sugestions-imgs .container-img .container-titleCross {
+            width: 100%;
+            height: auto;
+            background-image: linear-gradient(270deg, #ee3efe 0%, #2e32fb 100%);
+            margin-bottom: 2px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center; }
+            .themeTwo .section .container-imgsSugestions .sugestions-imgs .container-img .container-titleCross .title {
+              font-family: 'ChakraPetch-Bold';
+              font-size: 14px;
+              color: #ffffff;
+              letter-spacing: 0;
+              margin-left: 3px; }
+            .themeTwo .section .container-imgsSugestions .sugestions-imgs .container-img .container-titleCross img {
+              width: 15px;
+              height: 15px;
+              margin-right: 5px; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1300px) {
+          .themeTwo .section .container-imgsSugestions .sugestions-imgs .container-img img {
+            width: 100%;
+            height: 215px; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1301px) and (max-width: 1440px) {
+          .themeTwo .section .container-imgsSugestions .sugestions-imgs .container-img img {
+            width: 100%;
+            height: 290px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+          .themeTwo .section .container-imgsSugestions .sugestions-imgs .container-img .buttonSee {
+            position: absolute;
+            left: 7px;
+            bottom: 15px;
+            padding: 8px 10px;
+            font-size: 14px;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 18px;
+            color: #ffffff;
+            background-color: #2e32fb;
+            border: 1px solid #4c2f99;
+            box-shadow: inset -2px -2px 0 0 #2124b3, inset 2px 2px 0 0 #ffffff; }
+            .themeTwo .section .container-imgsSugestions .sugestions-imgs .container-img .buttonSee:hover {
+              background-color: #2629cc;
+              cursor: pointer; }
+    .themeTwo .section .container-images-trends {
+      width: 100%;
+      height: auto; }
+      .themeTwo .section .container-images-trends .trends {
+        width: auto;
+        height: 32px;
+        background: #fffafe;
+        border: 1px solid #2e32fb;
+        box-shadow: inset -2px -2px 0 0 #e6dce4, inset 2px 2px 0 0 #110038; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+        .themeTwo .section .container-images-trends .trends {
+          margin: 64px 70px 0 30px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1100px) {
+        .themeTwo .section .container-images-trends .trends {
+          margin: 64px 100px 0 60px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1440px) {
+        .themeTwo .section .container-images-trends .trends {
+          margin: 64px 140px 0 100px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+        .themeTwo .section .container-images-trends .trends .trends-text {
+          font-size: 14px;
+          color: #110038;
+          letter-spacing: 0;
+          margin-top: 7px;
+          margin-bottom: 7px;
+          margin-left: 7px; }
+      .themeTwo .section .container-images-trends .images {
+        width: auto;
+        height: 100%;
+        margin-top: 19px;
+        padding-bottom: 50px; }
+        .themeTwo .section .container-images-trends .images .allImages {
+          margin-left: 100px;
+          margin-right: 140px;
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          grid-gap: 14px;
+          grid-auto-rows: 298px; }
+          .themeTwo .section .container-images-trends .images .allImages .containerImg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: relative;
+            cursor: pointer; }
+            .themeTwo .section .container-images-trends .images .allImages .containerImg:nth-of-type(5) {
+              grid-column-start: span 2; }
+            .themeTwo .section .container-images-trends .images .allImages .containerImg:nth-of-type(10) {
+              grid-column-start: span 2; }
+            .themeTwo .section .container-images-trends .images .allImages .containerImg:nth-of-type(15) {
+              grid-column-start: span 2; }
+            .themeTwo .section .container-images-trends .images .allImages .containerImg:nth-of-type(20) {
+              grid-column-start: span 2; }
+            .themeTwo .section .container-images-trends .images .allImages .containerImg:hover > p {
+              display: block; }
+            .themeTwo .section .container-images-trends .images .allImages .containerImg .imgClass {
+              width: 100%;
+              height: 100%;
+              object-fit: cover; }
+              .themeTwo .section .container-images-trends .images .allImages .containerImg .imgClass:nth-of-type(5) {
+                grid-column-start: span 2; }
+              .themeTwo .section .container-images-trends .images .allImages .containerImg .imgClass:nth-of-type(10) {
+                grid-column-start: span 2; }
+              .themeTwo .section .container-images-trends .images .allImages .containerImg .imgClass:nth-of-type(15) {
+                grid-column-start: span 2; }
+              .themeTwo .section .container-images-trends .images .allImages .containerImg .imgClass:nth-of-type(20) {
+                grid-column-start: span 2; }
+            .themeTwo .section .container-images-trends .images .allImages .containerImg p {
+              width: 100%;
+              box-shadow: 0 1px 0 0 #110038;
+              background-image: linear-gradient(270deg, #ee3efe 0%, #2e32fb 100%);
+              position: absolute;
+              bottom: 0;
+              display: none;
+              color: #ffffff;
+              width: 100%;
+              object-fit: cover;
+              text-align: center; } }
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  .themeCreateTwo .header {
+    width: 100%;
+    box-shadow: 0 1px 0 0 #110038;
+    background-image: linear-gradient(270deg, #ee3efe 0%, #2e32fb 100%); }
+    .themeCreateTwo .header .wellcome {
+      padding: 5px 10px;
+      line-height: 20px;
+      color: #ffffff;
+      padding-top: 3px;
+      padding-bottom: 4px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 1440px) {
+      .themeCreateTwo .header .wellcome {
+        font-size: 12px; } }
+  @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 1440px) {
+    .themeCreateTwo .header {
+      height: 23px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  .themeCreateTwo .section {
+    width: 100%;
+    height: 100%;
+    background-color: #110038; }
+    .themeCreateTwo .section .containerLogoAndMenu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 10px 19px 10px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+      .themeCreateTwo .section .containerLogoAndMenu {
+        padding: 25px 70px 19px 30px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1100px) {
+      .themeCreateTwo .section .containerLogoAndMenu {
+        padding: 25px 100px 19px 60px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1440px) {
+      .themeCreateTwo .section .containerLogoAndMenu {
+        padding: 25px 140px 19px 100px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+      .themeCreateTwo .section .containerLogoAndMenu .containerlogoAndArrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
+        .themeCreateTwo .section .containerLogoAndMenu .containerlogoAndArrow .arrowLeft {
+          margin-right: 10px; }
+        .themeCreateTwo .section .containerLogoAndMenu .containerlogoAndArrow .logo {
+          width: 102px; }
+      .themeCreateTwo .section .containerLogoAndMenu .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative; }
+        .themeCreateTwo .section .containerLogoAndMenu .menu .buttonBoxOne {
+          width: 144px;
+          height: 36px;
+          font-size: 16px;
+          margin-left: 15px;
+          margin-right: 16px;
+          padding: 4px 0;
+          background-color: #ee3efe;
+          border: 1px solid #110038;
+          box-shadow: inset -1px -1px 0 0 #a72cb3, inset 1px 1px 0 0 #ffffff;
+          color: #ffffff; }
+          .themeCreateTwo .section .containerLogoAndMenu .menu .buttonBoxOne:focus {
+            outline: none; }
+          .themeCreateTwo .section .containerLogoAndMenu .menu .buttonBoxOne:hover {
+            border: 1px dashed #110038;
+            background-color: #ce36db;
+            cursor: pointer; }
+          .themeCreateTwo .section .containerLogoAndMenu .menu .buttonBoxOne:active {
+            border: 1px dashed #110038;
+            background-color: #ce36db; }
+        .themeCreateTwo .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+          .themeCreateTwo .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow:focus {
+            outline: none; }
+          .themeCreateTwo .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow:hover > .buttonBoxTwo {
+            border: 1px dashed #110038;
+            background-color: #ce36db; }
+          .themeCreateTwo .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow:hover > .arrow > img {
+            border: 1px dashed #110038;
+            background-color: #ce36db; }
+          .themeCreateTwo .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow .buttonBoxTwo {
+            width: 108px;
+            height: 36px;
+            margin-right: 0;
+            font-size: 16px;
+            padding: 4px 0;
+            background-color: #ee3efe;
+            border: 1px solid #110038;
+            box-shadow: inset -1px -1px 0 0 #a72cb3, inset 1px 1px 0 0 #ffffff;
+            color: #ffffff; }
+            .themeCreateTwo .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow .buttonBoxTwo:focus {
+              outline: none; }
+          .themeCreateTwo .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow .arrow {
+            width: 36px;
+            height: 34px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ee3efe;
+            border: 1px solid #110038;
+            box-shadow: inset -1px -1px 0 0 #a72cb3, inset 1px 1px 0 0 #ffffff; }
+            .themeCreateTwo .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow .arrow:hover {
+              cursor: pointer; }
+            .themeCreateTwo .section .containerLogoAndMenu .menu .buttonBoxTwoAndArrow .arrow img {
+              width: 10px;
+              height: 6px;
+              margin: 0 5px;
+              padding: 12px 9px; }
+        .themeCreateTwo .section .containerLogoAndMenu .menu .optionsThemes {
+          width: 137px;
+          top: 36px;
+          display: none;
+          list-style: none;
+          padding-top: 10px;
+          padding-left: 10px;
+          padding-bottom: 10px;
+          position: absolute;
+          background-color: #b4b4b4;
+          box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 1440px) {
+          .themeCreateTwo .section .containerLogoAndMenu .menu .optionsThemes {
+            left: 175px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+          .themeCreateTwo .section .containerLogoAndMenu .menu .optionsThemes li {
+            width: 125px;
+            background-color: #cccccc;
+            border: 1px solid #808080;
+            box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+            cursor: pointer; }
+            .themeCreateTwo .section .containerLogoAndMenu .menu .optionsThemes li:hover {
+              background-color: #2e32fb;
+              border: 1px solid rgba(51, 53, 143, 0.2);
+              box-shadow: inset -1px -1px 0 0 #e6dce4, inset 1px 1px 0 0 #ffffff; }
+            .themeCreateTwo .section .containerLogoAndMenu .menu .optionsThemes li:hover span {
+              text-decoration: #ffffff underline; }
+            .themeCreateTwo .section .containerLogoAndMenu .menu .optionsThemes li:active {
+              background-color: #2e32fb;
+              border: 1px solid rgba(51, 53, 143, 0.2);
+              box-shadow: inset -1px -1px 0 0 #e6dce4, inset 1px 1px 0 0 #ffffff; }
+            .themeCreateTwo .section .containerLogoAndMenu .menu .optionsThemes li:nth-of-type(1) {
+              margin-bottom: 10px; }
+            .themeCreateTwo .section .containerLogoAndMenu .menu .optionsThemes li .text-themes {
+              width: 100%;
+              padding-top: 7px;
+              padding-bottom: 7px;
+              margin-left: 10px;
+              font-family: 'ChakraPetch-Regular';
+              font-size: 16px;
+              color: #110038;
+              letter-spacing: 0;
+              line-height: 22px;
+              text-decoration: none; }
+              .themeCreateTwo .section .containerLogoAndMenu .menu .optionsThemes li .text-themes:hover {
+                color: #ffffff; }
+        .themeCreateTwo .section .containerLogoAndMenu .menu .buttonNonBox {
+          font-size: 16px;
+          line-height: 18px;
+          color: #ffffff;
+          padding: 7px;
+          margin-left: 16px;
+          border: 1px dashed transparent;
+          background-color: transparent;
+          outline: none; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 1440px) {
+          .themeCreateTwo .section .containerLogoAndMenu .menu .buttonNonBox {
+            font-size: 16px;
+            margin-left: 16.5px;
+            padding: 8px 5px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+          .themeCreateTwo .section .containerLogoAndMenu .menu .buttonNonBox span {
+            text-decoration: underline; }
+    .themeCreateTwo .section .containerCreateGifos {
+      width: auto;
+      height: auto;
+      background-color: #e6e6e6;
+      box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 959px) {
+      .themeCreateTwo .section .containerCreateGifos {
+        padding-top: 2px;
+        margin: 0 150px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 960px) and (max-width: 1069px) {
+      .themeCreateTwo .section .containerCreateGifos {
+        padding-top: 2px;
+        margin: 0 220px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1070px) and (max-width: 1139px) {
+      .themeCreateTwo .section .containerCreateGifos {
+        padding-top: 2px;
+        margin: 0 270px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1140px) and (max-width: 1369px) {
+      .themeCreateTwo .section .containerCreateGifos {
+        padding-top: 2px;
+        margin: 0 300px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1370px) and (max-width: 1440px) {
+      .themeCreateTwo .section .containerCreateGifos {
+        padding-top: 2px;
+        margin: 0 378px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+      .themeCreateTwo .section .containerCreateGifos .containerTitle {
+        width: auto;
+        background-image: linear-gradient(270deg, #ee3efe 0%, #2e32fb 100%);
+        margin-left: 2px;
+        margin-right: 2px; }
+        .themeCreateTwo .section .containerCreateGifos .containerTitle .title {
+          font-family: 'ChakraPetch-Bold';
+          font-size: 14px;
+          color: #ffffff;
+          letter-spacing: 0;
+          padding-left: 7px; }
+      .themeCreateTwo .section .containerCreateGifos .containerLogoList {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 30px;
+        padding-left: 25px; }
+        .themeCreateTwo .section .containerCreateGifos .containerLogoList img {
+          margin-right: 16px; }
+        .themeCreateTwo .section .containerCreateGifos .containerLogoList .containerList .title {
+          font-family: 'ChakraPetch-Bold';
+          font-size: 16px;
+          color: #110038;
+          letter-spacing: 0;
+          line-height: 22px; }
+        .themeCreateTwo .section .containerCreateGifos .containerLogoList .containerList .titleSteps {
+          font-size: 14px;
+          color: #110038;
+          letter-spacing: 0;
+          line-height: 20px;
+          margin-top: 17px;
+          padding-bottom: 10px; }
+        .themeCreateTwo .section .containerCreateGifos .containerLogoList .containerList .steps {
+          font-size: 14px;
+          color: #110038;
+          letter-spacing: 0;
+          line-height: 20px;
+          list-style: none;
+          padding-bottom: 10px; }
+          .themeCreateTwo .section .containerCreateGifos .containerLogoList .containerList .steps li {
+            padding: 10px 0; }
+        .themeCreateTwo .section .containerCreateGifos .containerLogoList .containerList .question {
+          font-size: 14px;
+          color: #110038;
+          letter-spacing: 0;
+          line-height: 20px; }
+      .themeCreateTwo .section .containerCreateGifos .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 36px;
+        padding-top: 28px;
+        padding-bottom: 36px; }
+        .themeCreateTwo .section .containerCreateGifos .buttons .buttonOne {
+          width: 144px;
+          height: 36px;
+          font-size: 16px;
+          margin-left: 15px;
+          margin-right: 16px;
+          padding: 4px 0;
+          border: 1px solid #110038;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          color: #110038;
+          letter-spacing: 0;
+          text-align: center;
+          line-height: 18px; }
+          .themeCreateTwo .section .containerCreateGifos .buttons .buttonOne:focus {
+            outline: none; }
+        .themeCreateTwo .section .containerCreateGifos .buttons .buttonTwo {
+          width: 144px;
+          height: 36px;
+          font-size: 16px;
+          margin-left: 15px;
+          margin-right: 16px;
+          padding: 4px 0;
+          border: 1px solid #110038;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          color: #110038;
+          background-color: #f7c9f3;
+          letter-spacing: 0;
+          text-align: center;
+          line-height: 18px; }
+          .themeCreateTwo .section .containerCreateGifos .buttons .buttonTwo:focus {
+            outline: none; }
+    .themeCreateTwo .section .windowCaptureVideo {
+      width: auto;
+      background-color: #e6e6e6;
+      box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+      position: relative; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 959px) {
+      .themeCreateTwo .section .windowCaptureVideo {
+        padding-top: 2px;
+        margin: 0 150px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 960px) and (max-width: 1069px) {
+      .themeCreateTwo .section .windowCaptureVideo {
+        padding-top: 2px;
+        margin: 0 220px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1070px) and (max-width: 1139px) {
+      .themeCreateTwo .section .windowCaptureVideo {
+        padding-top: 2px;
+        margin: 0 270px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1140px) and (max-width: 1369px) {
+      .themeCreateTwo .section .windowCaptureVideo {
+        height: 450px;
+        padding-top: 2px;
+        margin: 0 300px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1370px) and (max-width: 1440px) {
+      .themeCreateTwo .section .windowCaptureVideo {
+        height: 548px;
+        padding-top: 2px;
+        margin: 0 378px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+      .themeCreateTwo .section .windowCaptureVideo .windowCaptureVideoContainerTitle {
+        width: auto;
+        height: 24px;
+        background-image: linear-gradient(270deg, #ee3efe 0%, #2e32fb 100%);
+        margin-left: 2px;
+        margin-right: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; }
+        .themeCreateTwo .section .windowCaptureVideo .windowCaptureVideoContainerTitle .windowCaptureVideoTitle {
+          width: auto;
+          height: 18px;
+          font-family: 'ChakraPetch-Bold';
+          font-size: 14px;
+          color: #ffffff;
+          letter-spacing: 0;
+          padding-left: 7px; }
+        .themeCreateTwo .section .windowCaptureVideo .windowCaptureVideoContainerTitle .imgClose {
+          padding-right: 7px; }
+      .themeCreateTwo .section .windowCaptureVideo .liveVideo {
+        width: 96%;
+        background-color: #ffffff;
+        border: 1px solid #979797;
+        box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+        margin-top: 8px;
+        margin-left: 8px; }
+      .themeCreateTwo .section .windowCaptureVideo .recordedVideo {
+        width: 96%;
+        height: 400px;
+        background-color: #ffffff;
+        border: 1px solid #979797;
+        box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+        margin-top: 8px;
+        margin-left: 8px;
+        height: 300px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 959px) {
+        .themeCreateTwo .section .windowCaptureVideo .recordedVideo {
+          height: 300px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1070px) and (max-width: 1139px) {
+        .themeCreateTwo .section .windowCaptureVideo .recordedVideo {
+          height: 300px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1140px) and (max-width: 1369px) {
+        .themeCreateTwo .section .windowCaptureVideo .recordedVideo {
+          height: 350px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1370px) and (max-width: 1440px) {
+        .themeCreateTwo .section .windowCaptureVideo .recordedVideo {
+          height: 400px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+      .themeCreateTwo .section .windowCaptureVideo .containerCamera {
+        width: 34px;
+        height: 34px;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+        color: #110038;
+        font-family: 'ChakraPetch-Regular';
+        font-size: 16px;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 18px;
+        position: absolute;
+        bottom: 16px;
+        right: 158px; }
+        .themeCreateTwo .section .windowCaptureVideo .containerCamera .camera {
+          width: 15px;
+          height: 15px;
+          margin-top: 8px; }
+      .themeCreateTwo .section .windowCaptureVideo .buttonCapture {
+        width: 144px;
+        height: 36px;
+        background-color: #f7c9f3;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+        font-family: 'ChakraPetch-Regular';
+        font-size: 16px;
+        color: #110038;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 18px;
+        position: absolute;
+        bottom: 16px;
+        right: 16px; }
+      .themeCreateTwo .section .windowCaptureVideo .buttonDone {
+        width: 144px;
+        height: 36px;
+        background-color: #ff6161;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #993a3a, inset 1px 1px 0 0 #ffffff;
+        font-family: 'ChakraPetch-Regular';
+        font-size: 16px;
+        color: #110038;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 18px;
+        position: absolute;
+        bottom: 16px;
+        right: 16px; }
+      .themeCreateTwo .section .windowCaptureVideo .buttonUpload {
+        width: 144px;
+        height: 36px;
+        background-color: #f7c9f3;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+        font-family: 'ChakraPetch-Regular';
+        font-size: 16px;
+        color: #110038;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 18px;
+        position: absolute;
+        bottom: 16px;
+        right: 16px; }
+      .themeCreateTwo .section .windowCaptureVideo .windowUploading {
+        width: 96%;
+        background-color: #ffffff;
+        border: 1px solid #979797;
+        box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+        margin-top: 8px;
+        margin-left: 8px;
+        position: relative;
+        height: 300px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 959px) {
+        .themeCreateTwo .section .windowCaptureVideo .windowUploading {
+          height: 300px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1070px) and (max-width: 1139px) {
+        .themeCreateTwo .section .windowCaptureVideo .windowUploading {
+          height: 300px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1140px) and (max-width: 1369px) {
+        .themeCreateTwo .section .windowCaptureVideo .windowUploading {
+          height: 350px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1370px) and (max-width: 1440px) {
+        .themeCreateTwo .section .windowCaptureVideo .windowUploading {
+          height: 400px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+        .themeCreateTwo .section .windowCaptureVideo .windowUploading .containerWindowUploading {
+          width: auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 300px; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 959px) {
+          .themeCreateTwo .section .windowCaptureVideo .windowUploading .containerWindowUploading {
+            height: 300px; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1070px) and (max-width: 1139px) {
+          .themeCreateTwo .section .windowCaptureVideo .windowUploading .containerWindowUploading {
+            height: 300px; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1140px) and (max-width: 1369px) {
+          .themeCreateTwo .section .windowCaptureVideo .windowUploading .containerWindowUploading {
+            height: 350px; } }
+        @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1370px) and (max-width: 1440px) {
+          .themeCreateTwo .section .windowCaptureVideo .windowUploading .containerWindowUploading {
+            height: 400px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+          .themeCreateTwo .section .windowCaptureVideo .windowUploading .containerWindowUploading .titleUploading {
+            font-family: 'ChakraPetch-Bold';
+            font-size: 16px;
+            color: #110038;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 22px; }
+          .themeCreateTwo .section .windowCaptureVideo .windowUploading .containerWindowUploading .progressBar {
+            height: 24px;
+            background-color: #b4b4b4;
+            box-shadow: inset 2px 2px 0 0 #fffcfc, inset -2px -2px 0 0 #000000;
+            margin-top: 39px; } }
+          @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 959px) {
+            .themeCreateTwo .section .windowCaptureVideo .windowUploading .containerWindowUploading .progressBar {
+              width: 300px; } }
+          @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 960px) and (max-width: 1069px) {
+            .themeCreateTwo .section .windowCaptureVideo .windowUploading .containerWindowUploading .progressBar {
+              width: 300px; } }
+          @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1070px) and (max-width: 1139px) {
+            .themeCreateTwo .section .windowCaptureVideo .windowUploading .containerWindowUploading .progressBar {
+              width: 300px; } }
+          @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1140px) and (max-width: 1369px) {
+            .themeCreateTwo .section .windowCaptureVideo .windowUploading .containerWindowUploading .progressBar {
+              width: 300px; } }
+          @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1370px) and (max-width: 1440px) {
+            .themeCreateTwo .section .windowCaptureVideo .windowUploading .containerWindowUploading .progressBar {
+              width: 300px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+            .themeCreateTwo .section .windowCaptureVideo .windowUploading .containerWindowUploading .progressBar .progress {
+              width: 300px;
+              height: 24px;
+              background-color: #f7c9f3;
+              box-shadow: inset 2px 2px 0 0 #fffcfc, inset -2px -2px 0 0 #000000;
+              display: inline-block; }
+        .themeCreateTwo .section .windowCaptureVideo .windowUploading .buttonCancel {
+          width: 144px;
+          height: 36px;
+          font-size: 16px;
+          margin-left: 15px;
+          margin-right: 16px;
+          padding: 4px 0;
+          width: 144px;
+          background-color: #f7c9f3;
+          border: 1px solid #110038;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          color: #110038;
+          font-size: 16px;
+          padding: 4px 0;
+          letter-spacing: 0;
+          text-align: center;
+          line-height: 18px;
+          position: absolute;
+          right: 0;
+          margin-top: 21px; }
+          .themeCreateTwo .section .windowCaptureVideo .windowUploading .buttonCancel:focus {
+            outline: none; }
+      .themeCreateTwo .section .windowCaptureVideo .repeatCapture {
+        width: 144px;
+        height: 36px;
+        background-color: #f7c9f3;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+        font-family: 'ChakraPetch-Regular';
+        font-size: 16px;
+        color: #110038;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 18px;
+        position: absolute;
+        bottom: 16px;
+        right: 180px; }
+    .themeCreateTwo .section .windowSuccessUpload {
+      background-color: #e6e6e6;
+      box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+      position: relative; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 959px) {
+      .themeCreateTwo .section .windowSuccessUpload {
+        width: 721px;
+        height: 391px;
+        margin: 85px 150px 0 150px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 960px) and (max-width: 1069px) {
+      .themeCreateTwo .section .windowSuccessUpload {
+        width: 721px;
+        height: 391px;
+        margin: 85px 150px 0 150px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1070px) and (max-width: 1139px) {
+      .themeCreateTwo .section .windowSuccessUpload {
+        width: 721px;
+        height: 391px;
+        margin: 85px 270px 0 270px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1140px) and (max-width: 1369px) {
+      .themeCreateTwo .section .windowSuccessUpload {
+        width: 721px;
+        height: 391px;
+        margin: 85px 300px 0 300px; } }
+    @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1370px) and (max-width: 1440px) {
+      .themeCreateTwo .section .windowSuccessUpload {
+        width: 721px;
+        height: 391px;
+        margin: 85px 378px 0 378px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+      .themeCreateTwo .section .windowSuccessUpload .windowSuccessUploadContainerTitle {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 24px;
+        background-image: linear-gradient(270deg, #ee3efe 0%, #2e32fb 100%); }
+        .themeCreateTwo .section .windowSuccessUpload .windowSuccessUploadContainerTitle .windowSuccessTitle {
+          font-family: 'ChakraPetch-Bold';
+          font-size: 14px;
+          color: #ffffff;
+          letter-spacing: 0;
+          margin-left: 7px; }
+        .themeCreateTwo .section .windowSuccessUpload .windowSuccessUploadContainerTitle .windowSuccessClose {
+          width: 16px;
+          height: 14px;
+          margin-right: 7px; }
+      .themeCreateTwo .section .windowSuccessUpload .checkGifAndButtonsContainer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center; }
+        .themeCreateTwo .section .windowSuccessUpload .checkGifAndButtonsContainer .checkGif {
+          width: 371px;
+          height: 196px;
+          margin-top: 27px;
+          margin-left: 24px;
+          background-color: #ffffff;
+          border: 1px solid #979797;
+          box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000; }
+          .themeCreateTwo .section .windowSuccessUpload .checkGifAndButtonsContainer .checkGif .imgGif {
+            width: 365px;
+            height: 191px;
+            margin: 2px 3px 3px 3px; }
+        .themeCreateTwo .section .windowSuccessUpload .checkGifAndButtonsContainer .containerButtons {
+          margin-left: 27px;
+          display: flex;
+          flex-direction: column; }
+          .themeCreateTwo .section .windowSuccessUpload .checkGifAndButtonsContainer .containerButtons .titleContainerButtons {
+            font-family: 'ChakraPetch-Bold';
+            font-size: 16px;
+            color: #110038;
+            letter-spacing: 0;
+            line-height: 22px; }
+          .themeCreateTwo .section .windowSuccessUpload .checkGifAndButtonsContainer .containerButtons .buttons {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start; }
+            .themeCreateTwo .section .windowSuccessUpload .checkGifAndButtonsContainer .containerButtons .buttons .buttonCopyLink {
+              width: 256px;
+              height: 36px;
+              background-color: #fff4fd;
+              border: 1px solid #110038;
+              box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+              font-family: 'ChakraPetch-Regular';
+              font-size: 16px;
+              color: #110038;
+              letter-spacing: 0;
+              text-align: center;
+              line-height: 18px;
+              margin-top: 16px;
+              margin-bottom: 14px; }
+            .themeCreateTwo .section .windowSuccessUpload .checkGifAndButtonsContainer .containerButtons .buttons .downloadGif {
+              width: 256px;
+              height: auto;
+              background-color: #fff4fd;
+              border: 1px solid #110038;
+              box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+              font-family: 'ChakraPetch-Regular';
+              font-size: 16px;
+              color: #110038;
+              letter-spacing: 0;
+              text-align: center;
+              line-height: 18px;
+              text-decoration: none;
+              padding-top: 8px;
+              padding-bottom: 8px; }
+      .themeCreateTwo .section .windowSuccessUpload .containerButtonOk {
+        width: 100%;
+        height: auto; }
+        .themeCreateTwo .section .windowSuccessUpload .containerButtonOk .buttonOK {
+          width: 144px;
+          height: 36px;
+          background-color: #f7c9f3;
+          border: 1px solid #110038;
+          box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+          position: absolute;
+          right: 46px;
+          bottom: 44px;
+          font-family: 'ChakraPetch-Regular';
+          font-size: 16px;
+          color: #110038;
+          letter-spacing: 0;
+          text-align: center;
+          line-height: 18px; }
+    .themeCreateTwo .section .container-myGifs {
+      width: 100%;
+      height: 100%;
+      padding-bottom: 50px; }
+      .themeCreateTwo .section .container-myGifs .container-title {
+        width: auto;
+        background: #fffafe;
+        border: 1px solid #2e32fb;
+        box-shadow: inset -2px -2px 0 0 #e6dce4, inset 2px 2px 0 0 #110038; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 769px) and (max-width: 900px) {
+        .themeCreateTwo .section .container-myGifs .container-title {
+          margin: 64px 70px 0 30px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 901px) and (max-width: 1100px) {
+        .themeCreateTwo .section .container-myGifs .container-title {
+          margin: 64px 100px 0 60px; } }
+      @media screen and (min-width: 769px) and (max-width: 1440px) and (min-width: 1101px) and (max-width: 1440px) {
+        .themeCreateTwo .section .container-myGifs .container-title {
+          margin: 64px 140px 0 100px; } }
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+        .themeCreateTwo .section .container-myGifs .container-title .title-text {
+          font-family: 'ChakraPetch-Regular';
+          font-size: 14px;
+          color: #110038;
+          letter-spacing: 0;
+          margin-top: 7px;
+          margin-bottom: 7px;
+          margin-left: 7px; }
+      .themeCreateTwo .section .container-myGifs .containerGifs {
+        margin-top: 16px;
+        margin-left: 100px;
+        margin-right: 140px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 14px;
+        grid-auto-rows: 298px; }
+        .themeCreateTwo .section .container-myGifs .containerGifs a:nth-of-type(5) {
+          grid-column-start: span 2; }
+        .themeCreateTwo .section .container-myGifs .containerGifs a:nth-of-type(10) {
+          grid-column-start: span 2; }
+        .themeCreateTwo .section .container-myGifs .containerGifs a:nth-of-type(15) {
+          grid-column-start: span 2; }
+        .themeCreateTwo .section .container-myGifs .containerGifs a:nth-of-type(20) {
+          grid-column-start: span 2; }
+        .themeCreateTwo .section .container-myGifs .containerGifs a img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: inline-block; }
+          .themeCreateTwo .section .container-myGifs .containerGifs a img:nth-of-type(5) {
+            grid-column-start: span 2; }
+          .themeCreateTwo .section .container-myGifs .containerGifs a img:nth-of-type(10) {
+            grid-column-start: span 2; }
+          .themeCreateTwo .section .container-myGifs .containerGifs a img:nth-of-type(15) {
+            grid-column-start: span 2; }
+          .themeCreateTwo .section .container-myGifs .containerGifs a img:nth-of-type(20) {
+            grid-column-start: span 2; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'ChakraPetch-Regular'; }
+
+body {
+  height: auto; }
+
+/*# sourceMappingURL=styles.css.map */

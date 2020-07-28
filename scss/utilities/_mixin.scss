@@ -1,0 +1,344 @@
+@mixin display-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin header {
+	width: 100%;
+	box-shadow: 0 1px 0 0 $color-blueThree;
+}
+
+@mixin colorHeaderThemeOne {
+	background-image: linear-gradient(
+		270deg,
+		$color-pinkTwo 0%,
+		$color-blueOne 100%
+	);
+}
+
+@mixin colorHeaderThemeTwo {
+	background-image: linear-gradient(
+		270deg,
+		$color-violetOne 0%,
+		$color-blueTwo 100%
+	);
+}
+
+@mixin wellcome {
+	padding: 5px 10px;
+	line-height: 20px;
+	color: $color-white;
+}
+
+@mixin logoAndMenu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 10px 19px 10px;
+}
+
+@mixin buttonBox {
+	&:focus {
+		outline: none;
+	}
+}
+
+@mixin colorButtonBoxThemeOne {
+	border: 1px solid $color-blueThree;
+	box-shadow: inset -1px -1px 0 0 $color-pinkFour,
+		inset 1px 1px 0 0 $color-white;
+	color: $color-blueThree;
+}
+
+@mixin colorButtonBoxThemeTwo {
+	background-color: $color-violetOne;
+	border: 1px solid $color-blueThree;
+	box-shadow: inset -1px -1px 0 0 $color-violetThree,
+		inset 1px 1px 0 0 $color-white;
+	color: $color-white;
+}
+
+@mixin buttonBoxOne {
+	width: 144px;
+	height: 36px;
+	font-size: 16px;
+	margin-left: 15px;
+	margin-right: 16px;
+	padding: 4px 0;
+}
+
+@mixin buttonBoxTwo {
+	width: 108px;
+	height: 36px;
+	margin-right: 0;
+	font-size: 16px;
+	padding: 4px 0;
+}
+
+@mixin buttonOneAndTwo {
+	@include buttonBoxOne;
+	@include buttonBox;
+	@include colorButtonBoxThemeOne;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 18px;
+}
+
+@mixin buttonHoverAndActiveThemeOne {
+	border: 1px dashed $color-blueThree;
+	background-color: $color-pinkThree;
+}
+
+@mixin buttonHoverAndActiveThemeTwo {
+	border: 1px dashed $color-blueThree;
+	background-color: $color-violetTwo;
+}
+
+@mixin arrow {
+	width: 36px;
+	height: 34px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+@mixin arrowColorThemeOne {
+	background-color: $color-pinkTwo;
+	border: 1px solid $color-blueThree;
+	box-shadow: inset -1px -1px 0 0 $color-pinkFour,
+		inset 1px 1px 0 0 $color-white;
+}
+
+@mixin arrowColorThemeTwo {
+	background-color: $color-violetOne;
+	border: 1px solid $color-blueThree;
+	box-shadow: inset -1px -1px 0 0 $color-violetThree,
+		inset 1px 1px 0 0 $color-white;
+}
+
+@mixin arrow-img {
+	width: 10px;
+	height: 6px;
+	margin: 0 5px;
+	padding: 12px 9px;
+}
+
+@mixin optionsThemes {
+	width: 137px;
+	top: 36px;
+	display: none;
+	list-style: none;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	position: absolute;
+}
+
+@mixin optionsColorsThemesThemeOne {
+	background-color: $color-grayTwo;
+	box-shadow: inset -2px -2px 0 0 $color-grayFour,
+		inset 2px 2px 0 0 $color-white;
+}
+
+@mixin optionsColorsThemesThemeTwo {
+	background-color: $color-grayFour;
+	box-shadow: inset -2px -2px 0 0 $color-grayEleven,
+		inset 2px 2px 0 0 $color-white;
+}
+
+@mixin optionColorsThemeOne {
+	background-color: $color-grayOne;
+	border: 1px solid $color-graySix;
+	box-shadow: inset -1px -1px 0 0 $color-grayFour,
+		inset 1px 1px 0 0 $color-white;
+}
+
+@mixin optionColorsThemeTwo {
+	background-color: $color-grayThree;
+	border: 1px solid $color-graySix;
+	box-shadow: inset -1px -1px 0 0 $color-grayFour,
+		inset 1px 1px 0 0 $color-white;
+}
+
+@mixin optionHoverAndActiveThemeOne {
+	background-color: $color-pinkOne;
+	border: 1px solid $color-pinkSix;
+	box-shadow: inset -1px -1px 0 0 $color-grayNine,
+		inset 1px 1px 0 0 $color-white;
+}
+
+@mixin optionHoverAndActiveThemeTwo {
+	background-color: $color-blueTwo;
+	border: 1px solid rgba(51, 53, 143, 0.2);
+	box-shadow: inset -1px -1px 0 0 $color-grayNine,
+		inset 1px 1px 0 0 $color-white;
+}
+
+@mixin buttonNonBoxThemeOne {
+	font-size: 16px;
+	line-height: 18px;
+	color: $color-blueThree;
+	padding: 7px;
+	margin-left: 16px;
+	border: 1px dashed transparent;
+	background-color: transparent;
+	outline: none;
+}
+
+@mixin buttonNonBoxThemeTwo {
+	font-size: 16px;
+	line-height: 18px;
+	color: $color-white;
+	padding: 7px;
+	margin-left: 16px;
+	border: 1px dashed transparent;
+	background-color: transparent;
+	outline: none;
+}
+
+@mixin colorsInputSearchThemeOne {
+	background-color: $color-white;
+	border: 1px solid $color-grayFive;
+	box-shadow: inset -2px -2px 0 0 $color-grayTwo,
+		inset 2px 2px 0 0 $color-black;
+	color: $color-grayFour;
+}
+
+@mixin colorsButtonSearchOneThemeOne {
+	background-color: $color-grayTwo;
+	border: 1px solid $color-graySix;
+	box-shadow: inset -1px -1px 0 0 $color-grayFour,
+		inset 1px 1px 0 0 $color-white;
+	color: $color-grayFour;
+}
+
+@mixin colorsButtonSearchTwoThemeTwo {
+	background-color: $color-grayFour;
+	border: 1px solid $color-graySix;
+	box-shadow: inset -1px -1px 0 0 $color-grayFour,
+		inset 1px 1px 0 0 $color-white;
+	color: $color-grayEleven;
+}
+
+@mixin colorLoupActiveThemeOne {
+	background-color: $color-pinkThree;
+	border: 1px dashed $color-blueThree;
+	box-shadow: inset -1px -1px 0 0 $color-pinkFour,
+		inset 1px 1px 0 0 $color-white;
+}
+
+@mixin colorLoupActiveThemeTwo {
+	background-color: $color-violetTwo;
+	border: 1px dashed $color-blueThree;
+	box-shadow: inset -1px -1px 0 0 $color-pinkFour,
+		inset 1px 1px 0 0 $color-white;
+}
+
+@mixin colorOptionsHiddenThemeTwo {
+	background-color: $color-grayThree;
+	border: 1px solid $color-blueThree;
+	box-shadow: inset -1px -1px 0 0 $color-grayFour,
+		inset 1px 1px 0 0 $color-white;
+}
+
+@mixin containerHistoryButtonsThemeOne {
+	height: 50px;
+	overflow: hidden;
+	background-color: $color-pinkOne;
+}
+
+@mixin colorsContainerSuggestionsThemeOne {
+	background-color: $color-grayEight;
+	border: 1px solid $color-pinkThree;
+	box-shadow: inset -2px -2px 0 0 $color-grayNine,
+		inset 2px 2px 0 0 $color-pinkFive;
+}
+
+@mixin colorsContainerSuggestionsThemeTwo {
+	background: $color-grayEight;
+	border: 1px solid $color-blueTwo;
+	box-shadow: inset -2px -2px 0 0 $color-grayNine,
+		inset 2px 2px 0 0 $color-blueThree;
+}
+
+@mixin colorsButtonSeeThemeOne {
+	background-color: $color-blueOne;
+	border: 1px solid $color-blueFour;
+	box-shadow: inset -2px -2px 0 0 $color-blueFive,
+		inset 2px 2px 0 0 $color-white;
+}
+
+@mixin colorsButtonSeeThemeTwo {
+	background-color: $color-blueTwo;
+	border: 1px solid $color-blueFour;
+	box-shadow: inset -2px -2px 0 0 $color-blueSeven,
+		inset 2px 2px 0 0 $color-white;
+}
+
+@mixin colorsLiveVideoThemeOne {
+	background-color: $color-white;
+	border: 1px solid $color-grayFive;
+	box-shadow: inset -2px -2px 0 0 $color-grayTwo,
+		inset 2px 2px 0 0 $color-black;
+}
+
+@mixin liveVideoThemeOne {
+	width: 96%;
+	@include colorsLiveVideoThemeOne;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+@mixin colorsContainerCameraThemeOne {
+	border: 1px solid $color-blueThree;
+	box-shadow: inset -1px -1px 0 0 $color-pinkFour,
+		inset 1px 1px 0 0 $color-white;
+	color: $color-blueThree;
+}
+
+@mixin colorButtonCaptureThemeOne {
+	background-color: $color-pinkTwo;
+	border: 1px solid $color-blueThree;
+	box-shadow: inset -1px -1px 0 0 $color-pinkFour,
+		inset 1px 1px 0 0 $color-white;
+}
+
+@mixin colorButtonDoneThemeOne {
+	background-color: $color-redOne;
+	border: 1px solid $color-blueThree;
+	box-shadow: inset -1px -1px 0 0 $color-redTwo,
+		inset 1px 1px 0 0 $color-white;
+}
+
+@mixin colorCheckGifThemeTwo {
+	background-color: $color-white;
+	border: 1px solid $color-grayFive;
+	box-shadow: inset -2px -2px 0 0 $color-grayTwo,
+		inset 2px 2px 0 0 $color-black;
+}
+
+@mixin colorProgressBarThemeOne {
+	background-color: $color-grayFour;
+	box-shadow: inset 2px 2px 0 0 $color-grayTen,
+		inset -2px -2px 0 0 $color-black;
+}
+
+@mixin colorProgressThemeOne {
+	background-color: $color-pinkTwo;
+	box-shadow: inset 2px 2px 0 0 $color-grayTen,
+		inset -2px -2px 0 0 $color-black;
+}
+
+@mixin colorButtonThemeOne {
+	background-color: $color-pinkOne;
+	border: 1px solid $color-blueThree;
+	box-shadow: inset -1px -1px 0 0 $color-pinkFour,
+		inset 1px 1px 0 0 $color-white;
+}

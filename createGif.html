@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="./scss/styles.css" />
+		<link
+			rel="shortcut icon"
+			type="image/x-icon"
+			href="./assets/img/gifOF_logo_icon.ico"
+		/>
+		<title>GuifOS - Crear guifOS</title>
+	</head>
+	<body>
+		<header class="header">
+			<p class="wellcome">
+				¡Bienvenidos/as a Guifos.com! ------Donde los gifs están//////
+				Número de visitas: <span id="number">12.765.803</span>
+			</p>
+		</header>
+		<div class="section">
+			<div id="containerLogoAndMenu" class="containerLogoAndMenu">
+				<div class="containerlogoAndArrow">
+					<img
+						id="arrowLeft"
+						class="arrowLeft"
+						src="./assets/img/arrow.svg"
+						alt="ArrowLeft"
+					/>
+					<img
+						id="logo"
+						class="logo"
+						src="./assets/img/gifOS_logo.png"
+						alt="logo"
+					/>
+				</div>
+				<nav class="menu">
+					<button id="buttonBoxOne" class="buttonBoxOne">
+						Crear Guifos
+					</button>
+					<div class="buttonBoxTwoAndArrow">
+						<button class="buttonBoxTwo">
+							Elegir tema
+						</button>
+						<div id="arrow" class="arrow">
+							<img id="arrowDown" src="#" alt="Flecha abajo" />
+						</div>
+					</div>
+					<ul id="optionsThemes" class="optionsThemes">
+						<li id="optionSailorDay">
+							<p id="sailorDay" class="text-themes">
+								<span>S</span>ailor Day
+							</p>
+						</li>
+						<li id="optionSailorNight">
+							<p id="sailorNight" class="text-themes">
+								<span>S</span>ailor Night
+							</p>
+						</li>
+					</ul>
+					<button id="buttonNonBox" class="buttonNonBox" disabled>
+						<span>M</span>is Guifos
+					</button>
+				</nav>
+			</div>
+			<div id="containerCreateGifos" class="containerCreateGifos">
+				<div class="containerTitle">
+					<p class="title">Crear Guifos</p>
+				</div>
+				<div class="containerLogoList">
+					<img
+						src="./assets/img/window-img.png"
+						alt="Imagen de window"
+					/>
+					<div class="containerList">
+						<p class="title">
+							<strong>Aquí podrás crear tus propios guifos</strong>
+						</p>
+						<p class="titleSteps">
+							Crear tu <strong>guifo</strong> es muy fácil, graba
+							cualquier imagen con tu cámara y obtén guifos
+							personalizados. Los pasos para crear tu guifo son:
+						</p>
+						<ul class="steps">
+							<li>
+								<strong>1)</strong> Dar permisos de acceso a la cámara
+								(sólo por el tiempo de uso)
+							</li>
+							<li><strong>2)</strong> Capturar tu momento guifo</li>
+							<li><strong>3)</strong> Revisar el momento</li>
+							<li>
+								<strong>4)</strong> Listo para subir y compartir!
+							</li>
+						</ul>
+						<p class="question">
+							¿Quieres comenzar a crear tu
+							<strong>guifo</strong> ahora?
+						</p>
+					</div>
+				</div>
+				<div class="buttons">
+					<button id="buttonOne" class="buttonOne">
+						Cancelar
+					</button>
+					<button id="buttonTwo" class="buttonTwo">
+						Comenzar
+					</button>
+				</div>
+			</div>
+			<div id="container-myGifs" class="container-myGifs">
+				<div class="container-title">
+					<p class="title-text">Mis guifos</p>
+				</div>
+			</div>
+		</div>
+		<script src="./createGif.js"></script>
+		<script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+	</body>
+</html>

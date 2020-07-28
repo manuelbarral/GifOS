@@ -1,0 +1,819 @@
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+	@import '../../../utilities/mixin';
+
+	.header {
+		@include header;
+		@include colorHeaderThemeTwo;
+
+		.wellcome {
+			@include wellcome;
+			padding-top: 3px;
+			padding-bottom: 4px;
+
+			@media screen and (min-width: 769px) and (max-width: 1440px) {
+				font-size: 12px;
+			}
+		}
+
+		@media screen and (min-width: 769px) and (max-width: 1440px) {
+			height: 23px;
+		}
+	}
+
+	.section {
+		width: 100%;
+		height: 100%;
+		background-color: $color-blueThree;
+
+		.containerLogoAndMenu {
+			@include logoAndMenu;
+
+			@media screen and (min-width: 769px) and (max-width: 900px) {
+				padding: 25px 70px 19px 30px;
+			}
+
+			@media screen and (min-width: 901px) and (max-width: 1100px) {
+				padding: 25px 100px 19px 60px;
+			}
+
+			@media screen and (min-width: 1101px) and (max-width: 1440px) {
+				padding: 25px 140px 19px 100px;
+			}
+
+			.containerlogoAndArrow {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+
+				.arrowLeft {
+					margin-right: 10px;
+				}
+
+				.logo {
+					width: 102px;
+				}
+			}
+
+			.menu {
+				@include display-row;
+				position: relative;
+
+				.buttonBoxOne {
+					@include buttonBoxOne;
+					@include buttonBox;
+					@include colorButtonBoxThemeTwo;
+
+					&:hover {
+						@include buttonHoverAndActiveThemeTwo;
+						cursor: pointer;
+					}
+
+					&:active {
+						@include buttonHoverAndActiveThemeTwo;
+					}
+				}
+
+				.buttonBoxTwoAndArrow {
+					@include buttonBox;
+					@include display-row;
+
+					&:hover > .buttonBoxTwo {
+						@include buttonHoverAndActiveThemeTwo;
+					}
+
+					&:hover > .arrow > img {
+						@include buttonHoverAndActiveThemeTwo;
+					}
+
+					.buttonBoxTwo {
+						@include buttonBoxTwo;
+						@include buttonBox;
+						@include colorButtonBoxThemeTwo;
+					}
+
+					.arrow {
+						@include arrow;
+						@include arrowColorThemeTwo;
+
+						img {
+							@include arrow-img;
+						}
+					}
+				}
+
+				.optionsThemes {
+					@include optionsThemes;
+					@include optionsColorsThemesThemeTwo;
+
+					@media screen and (min-width: 769px) and (max-width: 1440px) {
+						left: 175px;
+					}
+
+					li {
+						width: 125px;
+						@include optionColorsThemeTwo;
+						cursor: pointer;
+
+						&:hover {
+							@include optionHoverAndActiveThemeTwo;
+						}
+
+						&:hover span {
+							text-decoration: $color-white underline;
+						}
+
+						&:active {
+							@include optionHoverAndActiveThemeTwo;
+						}
+
+						&:nth-of-type(1) {
+							margin-bottom: 10px;
+						}
+
+						.text-themes {
+							width: 100%;
+							padding-top: 7px;
+							padding-bottom: 7px;
+							margin-left: 10px;
+							font-family: 'ChakraPetch-Regular';
+							font-size: 16px;
+							color: $color-blueThree;
+							letter-spacing: 0;
+							line-height: 22px;
+							text-decoration: none;
+
+							&:hover {
+								color: $color-white;
+							}
+						}
+					}
+				}
+
+				.buttonNonBox {
+					@include buttonNonBoxThemeTwo;
+
+					@media screen and (min-width: 769px) and (max-width: 1440px) {
+						font-size: 16px;
+						margin-left: 16.5px;
+						padding: 8px 5px;
+					}
+
+					span {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+
+		.containerCreateGifos {
+			width: auto;
+			height: auto;
+			@include optionsColorsThemesThemeOne; // same colors
+
+			@media screen and (min-width: 769px) and (max-width: 959px) {
+				padding-top: 2px;
+				margin: 0 150px;
+			}
+
+			@media screen and (min-width: 960px) and (max-width: 1069px) {
+				padding-top: 2px;
+				margin: 0 220px;
+			}
+
+			@media screen and (min-width: 1070px) and (max-width: 1139px) {
+				padding-top: 2px;
+				margin: 0 270px;
+			}
+
+			@media screen and (min-width: 1140px) and (max-width: 1369px) {
+				padding-top: 2px;
+				margin: 0 300px;
+			}
+
+			@media screen and (min-width: 1370px) and (max-width: 1440px) {
+				padding-top: 2px;
+				margin: 0 378px;
+			}
+
+			.containerTitle {
+				width: auto;
+				@include colorHeaderThemeTwo;
+				margin-left: 2px;
+				margin-right: 2px;
+
+				.title {
+					font-family: 'ChakraPetch-Bold';
+					font-size: 14px;
+					color: $color-white;
+					letter-spacing: 0;
+					padding-left: 7px;
+				}
+			}
+
+			.containerLogoList {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: flex-start;
+				padding-top: 30px;
+				padding-left: 25px;
+
+				img {
+					margin-right: 16px;
+				}
+
+				.containerList {
+					.title {
+						font-family: 'ChakraPetch-Bold';
+						font-size: 16px;
+						color: $color-blueThree;
+						letter-spacing: 0;
+						line-height: 22px;
+					}
+
+					.titleSteps {
+						font-size: 14px;
+						color: $color-blueThree;
+						letter-spacing: 0;
+						line-height: 20px;
+						margin-top: 17px;
+						padding-bottom: 10px;
+					}
+
+					.steps {
+						font-size: 14px;
+						color: $color-blueThree;
+						letter-spacing: 0;
+						line-height: 20px;
+						list-style: none;
+						padding-bottom: 10px;
+
+						li {
+							padding: 10px 0;
+						}
+					}
+					.question {
+						font-size: 14px;
+						color: $color-blueThree;
+						letter-spacing: 0;
+						line-height: 20px;
+					}
+				}
+			}
+
+			.buttons {
+				display: flex;
+				flex-direction: row;
+				justify-content: flex-end;
+				align-items: center;
+				padding-right: 36px;
+				padding-top: 28px;
+				padding-bottom: 36px;
+
+				.buttonOne {
+					@include buttonBoxOne;
+					@include buttonBox;
+					@include colorButtonBoxThemeOne;
+					letter-spacing: 0;
+					text-align: center;
+					line-height: 18px;
+				}
+
+				.buttonTwo {
+					@include buttonBoxOne;
+					@include buttonBox;
+					@include colorButtonBoxThemeOne;
+					background-color: $color-pinkTwo;
+					letter-spacing: 0;
+					text-align: center;
+					line-height: 18px;
+				}
+			}
+		}
+
+		.windowCaptureVideo {
+			width: auto;
+			@include optionsColorsThemesThemeOne; // same colors
+			position: relative;
+
+			@media screen and (min-width: 769px) and (max-width: 959px) {
+				padding-top: 2px;
+				margin: 0 150px;
+			}
+
+			@media screen and (min-width: 960px) and (max-width: 1069px) {
+				padding-top: 2px;
+				margin: 0 220px;
+			}
+
+			@media screen and (min-width: 1070px) and (max-width: 1139px) {
+				padding-top: 2px;
+				margin: 0 270px;
+			}
+
+			@media screen and (min-width: 1140px) and (max-width: 1369px) {
+				height: 450px;
+				padding-top: 2px;
+				margin: 0 300px;
+			}
+
+			@media screen and (min-width: 1370px) and (max-width: 1440px) {
+				height: 548px;
+				padding-top: 2px;
+				margin: 0 378px;
+			}
+
+			.windowCaptureVideoContainerTitle {
+				width: auto;
+				height: 24px;
+				@include colorHeaderThemeTwo;
+				margin-left: 2px;
+				margin-right: 2px;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+
+				.windowCaptureVideoTitle {
+					width: auto;
+					height: 18px;
+					font-family: 'ChakraPetch-Bold';
+					font-size: 14px;
+					color: $color-white;
+					letter-spacing: 0;
+					padding-left: 7px;
+				}
+
+				.imgClose {
+					padding-right: 7px;
+				}
+			}
+
+			.liveVideo {
+				width: 96%;
+				@include colorsLiveVideoThemeOne; // same colors
+				margin-top: 8px;
+				margin-left: 8px;
+			}
+
+			.recordedVideo {
+				width: 96%;
+				height: 400px;
+				@include colorsLiveVideoThemeOne; // same colors
+				margin-top: 8px;
+				margin-left: 8px;
+
+				@media screen and (min-width: 769px) and (max-width: 959px) {
+					height: 300px;
+				}
+
+				@media screen and (min-width: 960px) and (max-width: 1069px) {
+				}
+				height: 300px;
+
+				@media screen and (min-width: 1070px) and (max-width: 1139px) {
+					height: 300px;
+				}
+
+				@media screen and (min-width: 1140px) and (max-width: 1369px) {
+					height: 350px;
+				}
+
+				@media screen and (min-width: 1370px) and (max-width: 1440px) {
+					height: 400px;
+				}
+			}
+
+			.containerCamera {
+				width: 34px;
+				height: 34px;
+				@include colorsContainerCameraThemeOne; // same colors
+				font-family: 'ChakraPetch-Regular';
+				font-size: 16px;
+				letter-spacing: 0;
+				text-align: center;
+				line-height: 18px;
+				position: absolute;
+				bottom: 16px;
+				right: 158px;
+
+				.camera {
+					width: 15px;
+					height: 15px;
+					margin-top: 8px;
+				}
+			}
+
+			.buttonCapture {
+				width: 144px;
+				height: 36px;
+				@include colorButtonCaptureThemeOne; // same colors
+				font-family: 'ChakraPetch-Regular';
+				font-size: 16px;
+				color: $color-blueThree;
+				letter-spacing: 0;
+				text-align: center;
+				line-height: 18px;
+				position: absolute;
+				bottom: 16px;
+				right: 16px;
+			}
+
+			.buttonDone {
+				width: 144px;
+				height: 36px;
+				@include colorButtonDoneThemeOne;
+				font-family: 'ChakraPetch-Regular';
+				font-size: 16px;
+				color: $color-blueThree;
+				letter-spacing: 0;
+				text-align: center;
+				line-height: 18px;
+				position: absolute;
+				bottom: 16px;
+				right: 16px;
+			}
+
+			.buttonUpload {
+				width: 144px;
+				height: 36px;
+				@include colorButtonCaptureThemeOne; // same colors
+				font-family: 'ChakraPetch-Regular';
+				font-size: 16px;
+				color: $color-blueThree;
+				letter-spacing: 0;
+				text-align: center;
+				line-height: 18px;
+				position: absolute;
+				bottom: 16px;
+				right: 16px;
+			}
+
+			.windowUploading {
+				width: 96%;
+				@include colorsLiveVideoThemeOne; // same colors
+				margin-top: 8px;
+				margin-left: 8px;
+				position: relative;
+
+				@media screen and (min-width: 769px) and (max-width: 959px) {
+					height: 300px;
+				}
+
+				@media screen and (min-width: 960px) and (max-width: 1069px) {
+				}
+				height: 300px;
+
+				@media screen and (min-width: 1070px) and (max-width: 1139px) {
+					height: 300px;
+				}
+
+				@media screen and (min-width: 1140px) and (max-width: 1369px) {
+					height: 350px;
+				}
+
+				@media screen and (min-width: 1370px) and (max-width: 1440px) {
+					height: 400px;
+				}
+
+				.containerWindowUploading {
+					width: auto;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+
+					@media screen and (min-width: 769px) and (max-width: 959px) {
+						height: 300px;
+					}
+
+					@media screen and (min-width: 960px) and (max-width: 1069px) {
+					}
+					height: 300px;
+
+					@media screen and (min-width: 1070px) and (max-width: 1139px) {
+						height: 300px;
+					}
+
+					@media screen and (min-width: 1140px) and (max-width: 1369px) {
+						height: 350px;
+					}
+
+					@media screen and (min-width: 1370px) and (max-width: 1440px) {
+						height: 400px;
+					}
+
+					.titleUploading {
+						font-family: 'ChakraPetch-Bold';
+						font-size: 16px;
+						color: $color-blueThree;
+						letter-spacing: 0;
+						text-align: center;
+						line-height: 22px;
+					}
+
+					.progressBar {
+						height: 24px;
+						@include colorProgressBarThemeOne; // same colors
+						margin-top: 39px;
+
+						@media screen and (min-width: 769px) and (max-width: 959px) {
+							width: 300px;
+						}
+
+						@media screen and (min-width: 960px) and (max-width: 1069px) {
+							width: 300px;
+						}
+
+						@media screen and (min-width: 1070px) and (max-width: 1139px) {
+							width: 300px;
+						}
+
+						@media screen and (min-width: 1140px) and (max-width: 1369px) {
+							width: 300px;
+						}
+
+						@media screen and (min-width: 1370px) and (max-width: 1440px) {
+							width: 300px;
+						}
+
+						.progress {
+							width: 300px;
+							height: 24px;
+							@include colorProgressThemeOne; // same colors
+							display: inline-block;
+						}
+					}
+				}
+
+				.buttonCancel {
+					@include buttonBoxOne;
+					@include buttonBox;
+					width: 144px;
+					@include colorButtonCaptureThemeOne; // same colors
+					color: $color-blueThree;
+					font-size: 16px;
+					padding: 4px 0;
+					letter-spacing: 0;
+					text-align: center;
+					line-height: 18px;
+					position: absolute;
+					right: 0;
+					margin-top: 21px;
+				}
+			}
+
+			.repeatCapture {
+				width: 144px;
+				height: 36px;
+				@include colorButtonCaptureThemeOne; // same colors
+				font-family: 'ChakraPetch-Regular';
+				font-size: 16px;
+				color: $color-blueThree;
+				letter-spacing: 0;
+				text-align: center;
+				line-height: 18px;
+				position: absolute;
+				bottom: 16px;
+				right: 180px;
+			}
+		}
+
+		.windowSuccessUpload {
+			@include optionsColorsThemesThemeOne; // same colors
+			position: relative;
+
+			@media screen and (min-width: 769px) and (max-width: 959px) {
+				width: 721px;
+				height: 391px;
+				margin: 85px 150px 0 150px;
+			}
+
+			@media screen and (min-width: 960px) and (max-width: 1069px) {
+				width: 721px;
+				height: 391px;
+				margin: 85px 150px 0 150px;
+			}
+
+			@media screen and (min-width: 1070px) and (max-width: 1139px) {
+				width: 721px;
+				height: 391px;
+				margin: 85px 270px 0 270px;
+			}
+
+			@media screen and (min-width: 1140px) and (max-width: 1369px) {
+				width: 721px;
+				height: 391px;
+				margin: 85px 300px 0 300px;
+			}
+
+			@media screen and (min-width: 1370px) and (max-width: 1440px) {
+				width: 721px;
+				height: 391px;
+				margin: 85px 378px 0 378px;
+			}
+
+			.windowSuccessUploadContainerTitle {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+				width: 100%;
+				height: 24px;
+				@include colorHeaderThemeTwo;
+
+				.windowSuccessTitle {
+					font-family: 'ChakraPetch-Bold';
+					font-size: 14px;
+					color: $color-white;
+					letter-spacing: 0;
+					margin-left: 7px;
+				}
+
+				.windowSuccessClose {
+					width: 16px;
+					height: 14px;
+					margin-right: 7px;
+				}
+			}
+
+			.checkGifAndButtonsContainer {
+				width: 100%;
+				height: auto;
+				display: flex;
+				flex-direction: row;
+				justify-content: flex-start;
+				align-items: center;
+
+				.checkGif {
+					width: 371px;
+					height: 196px;
+					margin-top: 27px;
+					margin-left: 24px;
+					@include colorCheckGifThemeTwo;
+
+					.imgGif {
+						width: 365px;
+						height: 191px;
+						margin: 2px 3px 3px 3px;
+					}
+				}
+
+				.containerButtons {
+					margin-left: 27px;
+					display: flex;
+					flex-direction: column;
+
+					.titleContainerButtons {
+						font-family: 'ChakraPetch-Bold';
+						font-size: 16px;
+						color: $color-blueThree;
+						letter-spacing: 0;
+						line-height: 22px;
+					}
+
+					.buttons {
+						display: flex;
+						flex-direction: column;
+						justify-content: flex-start;
+						align-items: flex-start;
+
+						.buttonCopyLink {
+							width: 256px;
+							height: 36px;
+							@include colorButtonThemeOne; // same colors
+							font-family: 'ChakraPetch-Regular';
+							font-size: 16px;
+							color: $color-blueThree;
+							letter-spacing: 0;
+							text-align: center;
+							line-height: 18px;
+							margin-top: 16px;
+							margin-bottom: 14px;
+						}
+
+						.downloadGif {
+							width: 256px;
+							height: auto;
+							@include colorButtonThemeOne; // same colors
+							font-family: 'ChakraPetch-Regular';
+							font-size: 16px;
+							color: $color-blueThree;
+							letter-spacing: 0;
+							text-align: center;
+							line-height: 18px;
+							text-decoration: none;
+							padding-top: 8px;
+							padding-bottom: 8px;
+						}
+					}
+				}
+			}
+
+			.containerButtonOk {
+				width: 100%;
+				height: auto;
+
+				.buttonOK {
+					width: 144px;
+					height: 36px;
+					@include colorButtonCaptureThemeOne; // same colors
+					position: absolute;
+					right: 46px;
+					bottom: 44px;
+					font-family: 'ChakraPetch-Regular';
+					font-size: 16px;
+					color: $color-blueThree;
+					letter-spacing: 0;
+					text-align: center;
+					line-height: 18px;
+				}
+			}
+		}
+
+		.container-myGifs {
+			width: 100%;
+			height: 100%;
+			padding-bottom: 50px;
+
+			.container-title {
+				width: auto;
+				@include colorsContainerSuggestionsThemeTwo; // same colors
+
+				@media screen and (min-width: 769px) and (max-width: 900px) {
+					margin: 64px 70px 0 30px;
+				}
+
+				@media screen and (min-width: 901px) and (max-width: 1100px) {
+					margin: 64px 100px 0 60px;
+				}
+
+				@media screen and (min-width: 1101px) and (max-width: 1440px) {
+					margin: 64px 140px 0 100px;
+				}
+
+				.title-text {
+					font-family: 'ChakraPetch-Regular';
+					font-size: 14px;
+					color: $color-blueThree;
+					letter-spacing: 0;
+					margin-top: 7px;
+					margin-bottom: 7px;
+					margin-left: 7px;
+				}
+			}
+
+			.containerGifs {
+				margin-top: 16px;
+				margin-left: 100px;
+				margin-right: 140px;
+				display: grid;
+				grid-template-columns: repeat(4, 1fr);
+				grid-gap: 14px;
+				grid-auto-rows: 298px;
+
+				a {
+					&:nth-of-type(5) {
+						grid-column-start: span 2;
+					}
+
+					&:nth-of-type(10) {
+						grid-column-start: span 2;
+					}
+
+					&:nth-of-type(15) {
+						grid-column-start: span 2;
+					}
+
+					&:nth-of-type(20) {
+						grid-column-start: span 2;
+					}
+
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+						display: inline-block;
+
+						&:nth-of-type(5) {
+							grid-column-start: span 2;
+						}
+
+						&:nth-of-type(10) {
+							grid-column-start: span 2;
+						}
+
+						&:nth-of-type(15) {
+							grid-column-start: span 2;
+						}
+
+						&:nth-of-type(20) {
+							grid-column-start: span 2;
+						}
+					}
+				}
+			}
+		}
+	}
+}
